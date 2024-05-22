@@ -2,3 +2,71 @@
 @import "./helpers/variables";
 @import "./helpers/variables-dark";
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    /* background-image: url("../img/bg_002.svg");
+    background-size: cover;
+    background-position: center; */
+    background-image: linear-gradient(rgb(246, 246, 246) .1rem, transparent .1rem), linear-gradient(90deg, rgba(246, 246, 246) .1rem, transparent .1rem);
+    background-size: 3rem 3rem;
+}
+
+.bg-theme-light{
+    background-color: #EAEDE7;
+}
+
+.bg-theme-dark{
+    background-color: #415948;
+}
+
+.fs-7{
+    font-size: 14px;
+}
+
+.nav::-webkit-scrollbar{
+    display: none;
+}
+
+.nav{
+    scrollbar-width: none; /* firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+.typing{
+    animation: type 2.5s steps(16), blink .5s infinite alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas;
+    font-size: 4em;
+    border-right: 5px solid black;
+    width: 22ch;
+}
+
+@keyframes type{
+    0%{
+      width:0ch;
+    }
+    100%{
+      width:17ch;
+    }
+  }
+  
+  @keyframes blink{
+    from{
+      border-color:transparent;
+    }
+    to{
+      border-color:black;
+    }
+  }
+
+.shortTalksImg{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.vvtest{
+  flex-wrap: nowrap;
+  overflow: auto;
+}
