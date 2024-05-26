@@ -607,6 +607,17 @@ $utilities: map-merge(
       class: text,
       values: $utilities-text-emphasis-colors
     ),
+
+    // 自定義字距 *custom
+    "letter-spacing": (
+      property: letter-spacing,
+      class: letter-spacing,
+      values: (
+        1: .1em,
+        2: .125em,
+        3: .375em,
+      )
+    ),
     // scss-docs-end utils-color
     // scss-docs-start utils-links
     "link-opacity": (
@@ -783,7 +794,7 @@ $utilities: map-merge(
         pill: var(--#{$prefix}border-radius-pill)
       )
     ),
-    // 自定義圓角
+    // 自定義圓角 // *custom
     "rounded-topLeft-bottomRight": (
       property: border-top-left-radius border-bottom-right-radius,
       class: rounded-topLeft-bottomRight,
@@ -817,6 +828,7 @@ $utilities: map-merge(
       values: $zindex-levels,
     ),
     // scss-docs-end utils-zindex
+    // *custom
     "background-size": (
         property: background-size,
         class: bg-s,
