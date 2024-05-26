@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="./css/all.css">
 </head>
 <body>
-    <div class="sticky-top bg-light border-bottom border-3 border-dark">
+    <div class="sticky-top bg-white border-bottom border-3 border-dark">
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="img/logo_bk.svg" alt="柚利說日語" class="img-fluid d-block"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@
                 <div class="carousel-caption text-start d-none d-lg-block p-4 bg-light rounded border border-3 shadow-lg mb-4">
                   <h2 class="fs-3 typing">歡迎光臨・くま米大飯店 🏠</h2>
                   <p class="mb-3 text-muted">長達 4 小時的飛機，終於抵達飯店了，拖著行李的你即將入住飯店...<br>然而，看起來似乎有些關卡等著你...</p>
-                  <a href="https://docs.google.com/document/d/1M-s-kX3V8IFRsQqALrNaOVuLDgyy2jakOhLIvM3QZXY/edit" target="_blank" class="btn btn-dark px-4">下載答案紙</a>
+                  <a href="https://docs.google.com/document/d/1M-s-kX3V8IFRsQqALrNaOVuLDgyy2jakOhLIvM3QZXY/edit" target="_blank" class="btn btn-outline-primary px-4">下載作答紙</a>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="2000">
@@ -96,7 +96,7 @@
           </div>
         </div>
       </div>
-      <!--飯店篇引導說明-->
+      <!--引導說明-->
     
       <div class="container mt-5 d-none d-md-block">
         <div class="row">
@@ -120,6 +120,7 @@
           </div><!--col-8-->
         </div><!--row-->
       </div>
+      <!--使用流程-->
       
       <section class="hotel my-sm-5 my-4">
         <div class="container mb-md-4 mb-2">
@@ -128,6 +129,7 @@
         </div>
         <div class="container my-2">
           <div class="row g-3">
+            <!--A-Card-->
             <div class="col-6 col-md-6 col-lg-3">
               <div class="card h-100 shadow-sm">
                 <p class="position-absolute top-0 px-md-3 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1 rounded-topLeft-bottomRight">一番</p>
@@ -137,15 +139,15 @@
                   <p class="card-text">旅客試圖讓自己與櫃檯人員交流時更加自信，取得房卡才能順利入住飯店...
                   </p>
                   <!-- Button trigger modal -->
-                  <ul class="list-unstyled d-flex flex-lg-row mb-0 gap-2 flex-column mt-auto">
-                    <li class="w-100 w-md-100 w-lg-50">
+                  <ul class="list-unstyled d-flex flex-lg-row mb-0 flex-column mt-auto">
+                    <li class="w-100">
                       <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneAModalTask_001">進入任務
                       </button>
                     </li>
-                    <li class="w-100 w-md-50 w-lg-50">
+                    <!-- <li class="w-100 w-md-50 w-lg-50">
                       <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneAModalProps_001">獲取道具
                       </button>
-                    </li>
+                    </li> -->
                   </ul>
                   <!-- hotelLessonOneAModalTask_001 -->
                   <div class="modal fade" id="hotelLessonOneAModalTask_001" tabindex="-1" aria-labelledby="hotelLessonOneAModalTask_001_heading" aria-hidden="true">
@@ -165,7 +167,7 @@
                               <button class="nav-link" id="hotelLessonOneATaskCardTabs_Grammar" data-bs-toggle="pill" data-bs-target="#hotelLessonOneATaskCardTabs_003" type="button" role="tab" aria-controls="hotelLessonOneATaskCardTabs_003" aria-selected="false">文法句型</button>
                             </li>
                             <li class="nav-item text-nowrap" role="presentation">
-                              <button class="nav-link" id="hotelLessonOneATaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneATaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneATaskCardTabs_004" aria-selected="false">聽寫練習</button>
+                              <button class="nav-link" id="hotelLessonOneATaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneATaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneATaskCardTabs_004" aria-selected="false">聽寫題目</button>
                             </li>
                           </ul>
                           <!--tab 導覽區塊-->
@@ -182,7 +184,7 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="hotelLessonOneATaskCardAccordion_001_heading">
                                     <button class="accordion-button fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneATaskCardAccordion_001_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneATaskCardAccordion_001_collapseContent">
-                                      你的任務是...
+                                      Check in 入住
                                     </button>
                                   </h2>
                                   <div id="hotelLessonOneATaskCardAccordion_001_collapseContent" class="accordion-collapse collapse show" aria-labelledby="hotelLessonOneATaskCardAccordion_001_heading">
@@ -190,22 +192,22 @@
                                       <ul class="list-unstyled d-flex flex-column mb-0">
                                         <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
                                           <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">情境</p>
-                                          <p class="px-2 fs-6 mb-0">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
+                                          <p class="px-2 fs-6 mb-0">一行人抵達飯店後，首先迎來的就是「入住飯店」的挑戰。</p>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">你的任務</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">任務說明</p>
                                           <p class="px-2 fs-6 mb-0">與飯店櫃檯人員對話，負責幫大家辦理入住手續。</p>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-start mb-2 mb-md-2 gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">特別任務</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">學習要點</p>
                                           <ul class="list-unstyled px-2 fs-6">
-                                            <li>➀、詢問房間是否有 Wi-Fi，並向櫃檯人員要 Wi-Fi 密碼。</li>
-                                            <li>➁、回答 Tina，自己為什麼學日文。</li>
+                                            <li>➀、熟悉入住飯店時必用句型與單字。</li>
+                                            <li>➁、練習聽出關鍵單字，使聽力能力進步。</li>
                                           </ul>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-center gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">求救機會</p>
-                                          <p class="px-2 fs-6 mb-0">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">作答說明</p>
+                                          <p class="px-2 fs-6 mb-0">下載作答紙，完成「聽寫題目」中挖空的句子，<span class="fw-bold text-danger text-decoration-underline">將答案寫進作答紙中。</span></p>
                                         </li>
                                       </ul>
                                       <!--任務清單說明-->
@@ -223,12 +225,12 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="hotelLessonOneATaskCardAccordion_002_heading">
                                     <button class="accordion-button collapsed fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneATaskCardAccordion_002_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneATaskCardAccordion_002_collapseContent">
-                                      老師的小提示
+                                      攻略提示
                                     </button>
                                   </h2>
                                   <div id="hotelLessonOneATaskCardAccordion_002_collapseContent" class="accordion-collapse collapse" aria-labelledby="hotelLessonOneATaskCardAccordion_002_heading">
                                     <div class="accordion-body">
-                                      同學可以先閱讀<strong>「任務卡」</strong>，根據文法句型、單字來組成句子，試著完成對話吧！
+                                      同學可以在閱讀完「任務詳情」後，點擊<strong>「認識單字」、「文法句型」</strong>來學習本關知識點，吸收後試著利用這些知識點來完成任務內容吧！
                                     </div>
                                   </div>
                                 </div>
@@ -384,12 +386,12 @@
                             <div class="tab-pane fade" id="hotelLessonOneATaskCardTabs_004" role="tabpanel" aria-labelledby="hotelLessonOneATaskCardTabs_Practice">
     
                               <div class="d-flex flex-column flex-md-row justify-content-between mb-3"> 
-                                <p class="fs-5 fw-bold mb-1">你正在與櫃檯人員對話...</p>
-                                <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-secondary rounded fs-6 fw-bolder text-primary">
+                                <p class="fs-5 fw-bold mb-1">與櫃檯人員對話，辦理入住手續：</p>
+                                <!-- <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-secondary rounded fs-6 fw-bolder text-primary">
                                   <li><img src="img/icon-gull-notify.svg" alt="notify" class="img-fluid d-block me-2">
                                   </li>
                                   <li>播放來練習聽寫</li>
-                                </ul>
+                                </ul> -->
                                 <!--補充單字標題表頭-->  
                               </div>
                               <!--聽寫練習引導說明-->
@@ -728,7 +730,7 @@
                         <!--modal-body-->
     
                         <div class="modal-footer mt-auto">
-                          <button type="button" class="btn btn-outline-primary w-100" data-bs-dismiss="modal">我知道了</button>
+                          <button type="button" class="btn btn-outline-primary w-100" data-bs-dismiss="modal">離開任務</button>
                         </div>
                         <!--modal-footer-->
                       </div>
@@ -764,7 +766,6 @@
               </div>
               <!--card-->
             </div>
-            <!--A-Card-->
             <!--B-Card-->
             <div class="col-6 col-md-6 col-lg-3">
               <div class="card h-100 shadow-sm">
@@ -776,14 +777,14 @@
                   </p>
                   <!-- Button trigger modal -->
                   <ul class="list-unstyled d-flex flex-column flex-lg-row mb-0 gap-2 mt-auto">
-                    <li class="w-100 w-md-100 w-lg-50">
+                    <li class="w-100">
                       <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneBModalTask_001">進入任務
                       </button>
                     </li>
-                    <li class="w-100 w-md-50 w-lg-50">
+                    <!-- <li class="w-100 w-md-50 w-lg-50">
                       <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneBModalProps_001">獲取道具
                       </button>
-                    </li>
+                    </li> -->
                   </ul>
                   <!-- hotelLessonOneBModalTask_001 -->
                   <div class="modal fade" id="hotelLessonOneBModalTask_001" tabindex="-1" aria-labelledby="hotelLessonOneBModalTask_001_heading" aria-hidden="true">
@@ -803,7 +804,7 @@
                               <button class="nav-link" id="hotelLessonOneBTaskCardTabs_Grammar" data-bs-toggle="pill" data-bs-target="#hotelLessonOneBTaskCardTabs_003" type="button" role="tab" aria-controls="hotelLessonOneBTaskCardTabs_003" aria-selected="false">文法句型</button>
                             </li>
                             <li class="nav-item text-nowrap" role="presentation">
-                              <button class="nav-link" id="hotelLessonOneBTaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneBTaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneBTaskCardTabs_004" aria-selected="false">聽寫練習</button>
+                              <button class="nav-link" id="hotelLessonOneBTaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneBTaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneBTaskCardTabs_004" aria-selected="false">聽寫題目</button>
                             </li>
                           </ul>
                           <!--tab 導覽區塊-->
@@ -820,7 +821,7 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="hotelLessonOneBTaskCardAccordion_001_heading">
                                     <button class="accordion-button fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneBTaskCardAccordion_001_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneBTaskCardAccordion_001_collapseContent">
-                                      你的任務是...
+                                      寄放行李
                                     </button>
                                   </h2>
                                   <div id="hotelLessonOneBTaskCardAccordion_001_collapseContent" class="accordion-collapse collapse show" aria-labelledby="hotelLessonOneBTaskCardAccordion_001_heading">
@@ -828,21 +829,22 @@
                                       <ul class="list-unstyled d-flex flex-column mb-0">
                                         <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
                                           <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">情境</p>
-                                          <p class="px-2 fs-6 mb-0">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
+                                          <p class="px-2 fs-6 mb-0">還不能馬上入住房間，疲憊的你想要先寄放行李。</p>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">你的任務</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">任務說明</p>
                                           <p class="px-2 fs-6 mb-0">詢問現在可以進房了嗎，如不行請櫃檯幫忙寄放行李。</p>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-start mb-2 mb-md-2 gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">特別任務</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">學習要點</p>
                                           <ul class="list-unstyled px-2 fs-6">
-                                            <li>➀、問小奕為什麼學習日文。</li>
+                                            <li>➀、練習提問句型以及提出需求。</li>
+                                            <li>➁、熟悉文法可能形。</li>
                                           </ul>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-center gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">求救機會</p>
-                                          <p class="px-2 fs-6 mb-0">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">作答說明</p>
+                                          <p class="px-2 fs-6 mb-0">下載作答紙，完成「聽寫題目」中挖空的句子，<span class="fw-bold text-danger text-decoration-underline">將答案寫進作答紙中。</span></p>
                                         </li>
                                       </ul>
                                       <!--任務清單說明-->
@@ -860,12 +862,12 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="hotelLessonOneBTaskCardAccordion_002_heading">
                                     <button class="accordion-button collapsed fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneBTaskCardAccordion_002_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneBTaskCardAccordion_002_collapseContent">
-                                      老師的小提示
+                                      攻略提示
                                     </button>
                                   </h2>
                                   <div id="hotelLessonOneBTaskCardAccordion_002_collapseContent" class="accordion-collapse collapse" aria-labelledby="hotelLessonOneBTaskCardAccordion_002_heading">
                                     <div class="accordion-body">
-                                      同學可以先閱讀<strong>「任務卡」</strong>，根據文法句型、單字來組成句子，試著完成對話吧！
+                                      同學可以在閱讀完「任務詳情」後，點擊<strong>「認識單字」、「文法句型」</strong>來學習本關知識點，吸收後試著利用這些知識點來完成任務內容吧！
                                     </div>
                                   </div>
                                 </div>
@@ -1096,12 +1098,12 @@
                             <div class="tab-pane fade" id="hotelLessonOneBTaskCardTabs_004" role="tabpanel" aria-labelledby="hotelLessonOneBTaskCardTabs_Practice">
     
                               <div class="d-flex flex-column flex-md-row justify-content-between mb-3"> 
-                                <p class="fs-5 fw-bold mb-1">你正在與櫃檯人員對話...</p>
-                                <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-secondary rounded fs-6 fw-bolder text-primary">
+                                <p class="fs-5 fw-bold mb-1">向櫃檯人員詢問：</p>
+                                <!-- <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-secondary rounded fs-6 fw-bolder text-primary">
                                   <li><img src="img/icon-gull-notify.svg" alt="notify" class="img-fluid d-block me-2">
                                   </li>
                                   <li>播放來練習聽寫</li>
-                                </ul>
+                                </ul> -->
                                 <!--補充單字標題表頭-->  
                               </div>
                               <!--聽寫練習引導說明-->
@@ -1343,7 +1345,7 @@
                         <!--modal-body-->
     
                         <div class="modal-footer mt-auto">
-                          <button type="button" class="btn btn-outline-primary w-100" data-bs-dismiss="modal">我知道了</button>
+                          <button type="button" class="btn btn-outline-primary w-100" data-bs-dismiss="modal">離開任務</button>
                         </div>
                         <!--modal-footer-->
                       </div>
@@ -1379,25 +1381,25 @@
               </div>
               <!--card-->
             </div>
-            <!--B-Card-->
+            <!--C-Card-->
             <div class="col-6 col-md-6 col-lg-3">
               <div class="card h-100 shadow-sm">
                 <p class="position-absolute top-0 px-md-3 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1 rounded-topLeft-bottomRight">三番</p>
                 <img src="img/hotel_role_004.png" class="card-img-top img-fluid bg-theme-light d-block" alt="旅客">
                 <div class="card-body d-flex flex-column">
-                  <h5 class="card-title">確認時間與退房</h5>
+                  <h5 class="card-title">泡湯與退房</h5>
                   <p class="card-text">團員們需要泡湯放鬆，洗滌身心的疲憊，但是泡湯的使用時間是幾點呢...
                   </p>
                   <!-- Button trigger modal -->
                   <ul class="list-unstyled d-flex flex-column flex-lg-row mb-0 gap-2 mt-auto">
-                    <li class="w-100 w-md-100 w-lg-50">
+                    <li class="w-100">
                       <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneCModalTask_001">進入任務
                       </button>
                     </li>
-                    <li class="w-100 w-md-50 w-lg-50">
+                    <!-- <li class="w-100 w-md-50 w-lg-50">
                       <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneCModalProps_001">獲取道具
                       </button>
-                    </li>
+                    </li> -->
                   </ul>
                   <!-- hotelLessonOneCModalTask_001 -->
                   <div class="modal fade" id="hotelLessonOneCModalTask_001" tabindex="-1" aria-labelledby="hotelLessonOneCModalTask_001_heading" aria-hidden="true">
@@ -1417,7 +1419,7 @@
                               <button class="nav-link" id="hotelLessonOneCTaskCardTabs_Grammar" data-bs-toggle="pill" data-bs-target="#hotelLessonOneCTaskCardTabs_003" type="button" role="tab" aria-controls="hotelLessonOneCTaskCardTabs_003" aria-selected="false">文法句型</button>
                             </li>
                             <li class="nav-item text-nowrap" role="presentation">
-                              <button class="nav-link" id="hotelLessonOneCTaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneCTaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneCTaskCardTabs_004" aria-selected="false">聽寫練習</button>
+                              <button class="nav-link" id="hotelLessonOneCTaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneCTaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneCTaskCardTabs_004" aria-selected="false">聽寫題目</button>
                             </li>
                           </ul>
                           <!--tab 導覽區塊-->
@@ -1434,7 +1436,7 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="hotelLessonOneCTaskCardAccordion_001_heading">
                                     <button class="accordion-button fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneCTaskCardAccordion_001_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneCTaskCardAccordion_001_collapseContent">
-                                      你的任務是...
+                                      泡湯與退房
                                     </button>
                                   </h2>
                                   <div id="hotelLessonOneCTaskCardAccordion_001_collapseContent" class="accordion-collapse collapse show" aria-labelledby="hotelLessonOneCTaskCardAccordion_001_heading">
@@ -1442,21 +1444,22 @@
                                       <ul class="list-unstyled d-flex flex-column mb-0">
                                         <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
                                           <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">情境</p>
-                                          <p class="px-2 fs-6 mb-0">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
+                                          <p class="px-2 fs-6 mb-0">入住飯店後，想泡湯來放鬆一下。</p>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">你的任務</p>
-                                          <p class="px-2 fs-6 mb-0">詢問溫泉的可利用時間，需要帶毛巾去嗎？</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">任務說明</p>
+                                          <p class="px-2 fs-6 mb-0">詢問溫泉的可利用時間，是否需要帶毛巾去。</p>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-start mb-2 mb-md-2 gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">特別任務</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">學習要點</p>
                                           <ul class="list-unstyled px-2 fs-6">
-                                            <li>➀、詢問 Tina 有沒有去過日本玩。</li>
+                                            <li>➀、練習提問句型。</li>
+                                            <li>➁、學習飯店退房與付款會話。</li>
                                           </ul>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-center gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">求救機會</p>
-                                          <p class="px-2 fs-6 mb-0">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">作答說明</p>
+                                          <p class="px-2 fs-6 mb-0">下載作答紙，完成「聽寫題目」中挖空的句子，<span class="fw-bold text-danger text-decoration-underline">將答案寫進作答紙中。</span></p>
                                         </li>
                                       </ul>
                                       <!--任務清單說明-->
@@ -1474,12 +1477,12 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="hotelLessonOneCTaskCardAccordion_002_heading">
                                     <button class="accordion-button collapsed fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneCTaskCardAccordion_002_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneCTaskCardAccordion_002_collapseContent">
-                                      老師的小提示
+                                      攻略提示
                                     </button>
                                   </h2>
                                   <div id="hotelLessonOneCTaskCardAccordion_002_collapseContent" class="accordion-collapse collapse" aria-labelledby="hotelLessonOneCTaskCardAccordion_002_heading">
                                     <div class="accordion-body">
-                                      同學可以先閱讀<strong>「任務卡」</strong>，根據文法句型、單字來組成句子，試著完成對話吧！
+                                      同學可以在閱讀完「任務詳情」後，點擊<strong>「認識單字」、「文法句型」</strong>來學習本關知識點，吸收後試著利用這些知識點來完成任務內容吧！
                                     </div>
                                   </div>
                                 </div>
@@ -1624,12 +1627,12 @@
                             <div class="tab-pane fade" id="hotelLessonOneCTaskCardTabs_004" role="tabpanel" aria-labelledby="hotelLessonOneATaskCardTabs_Practice">
     
                               <div class="d-flex flex-column flex-md-row justify-content-between mb-3"> 
-                                <p class="fs-5 fw-bold mb-1">你正在與櫃檯人員對話...</p>
-                                <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-secondary rounded fs-6 fw-bolder text-primary">
+                                <p class="fs-5 fw-bold mb-1">向櫃檯人員詢問：</p>
+                                <!-- <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-secondary rounded fs-6 fw-bolder text-primary">
                                   <li><img src="img/icon-gull-notify.svg" alt="notify" class="img-fluid d-block me-2">
                                   </li>
                                   <li>播放來練習聽寫</li>
-                                </ul>
+                                </ul> -->
                                 <!--補充單字標題表頭-->  
                               </div>
                               <!--聽寫練習引導說明-->
@@ -1834,7 +1837,7 @@
                         <!--modal-body-->
     
                         <div class="modal-footer mt-auto">
-                          <button type="button" class="btn btn-outline-primary w-100" data-bs-dismiss="modal">我知道了</button>
+                          <button type="button" class="btn btn-outline-primary w-100" data-bs-dismiss="modal">離開任務</button>
                         </div>
                         <!--modal-footer-->
                       </div>
@@ -1870,7 +1873,7 @@
               </div>
               <!--card-->
             </div>
-            <!--C-Card-->
+            <!--D-Card-->
             <div class="col-6 col-md-6 col-lg-3">
               <div class="card h-100 shadow-sm">
                 <p class="position-absolute top-0 px-md-3 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1 rounded-topLeft-bottomRight">四番</p>
@@ -1881,14 +1884,14 @@
                   </p>
                   <!-- Button trigger modal -->
                   <ul class="list-unstyled d-flex flex-column flex-lg-row mb-0 gap-2 mt-auto">
-                    <li class="w-100 w-md-100 w-lg-50">
+                    <li class="w-100">
                       <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneDModalTask_001">進入任務
                       </button>
                     </li>
-                    <li class="w-100 w-md-50 w-lg-50">
+                    <!-- <li class="w-100 w-md-50 w-lg-50">
                       <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#hotelLessonOneDModalProps_001">獲取道具
                       </button>
-                    </li>
+                    </li> -->
                   </ul>
                   <!-- hotelLessonOneDModalTask_001 -->
                   <div class="modal fade" id="hotelLessonOneDModalTask_001" tabindex="-1" aria-labelledby="hotelLessonOneDModalTask_001_heading" aria-hidden="true">
@@ -1908,7 +1911,7 @@
                               <button class="nav-link" id="hotelLessonOneDTaskCardTabs_Grammar" data-bs-toggle="pill" data-bs-target="#hotelLessonOneDTaskCardTabs_003" type="button" role="tab" aria-controls="hotelLessonOneDTaskCardTabs_003" aria-selected="false">文法句型</button>
                             </li>
                             <li class="nav-item text-nowrap" role="presentation">
-                              <button class="nav-link" id="hotelLessonOneDTaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneDTaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneDTaskCardTabs_004" aria-selected="false">聽寫練習</button>
+                              <button class="nav-link" id="hotelLessonOneDTaskCardTabs_Practice" data-bs-toggle="pill" data-bs-target="#hotelLessonOneDTaskCardTabs_004" type="button" role="tab" aria-controls="hotelLessonOneDTaskCardTabs_004" aria-selected="false">聽寫題目</button>
                             </li>
                           </ul>
                           <!--tab 導覽區塊-->
@@ -1925,7 +1928,7 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="hotelLessonOneDTaskCardAccordion_001_heading">
                                     <button class="accordion-button fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneDTaskCardAccordion_001_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneDTaskCardAccordion_001_collapseContent">
-                                      你的任務是...
+                                      解決旅客的問題
                                     </button>
                                   </h2>
                                   <div id="hotelLessonOneDTaskCardAccordion_001_collapseContent" class="accordion-collapse collapse show" aria-labelledby="hotelLessonOneDTaskCardAccordion_001_heading">
@@ -1933,22 +1936,22 @@
                                       <ul class="list-unstyled d-flex flex-column mb-0">
                                         <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
                                           <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">情境</p>
-                                          <p class="px-2 fs-6 mb-0">預計入住３天，２間房間（一間單人房、一間三人房）。</p>
+                                          <p class="px-2 fs-6 mb-0">今天來了幾位外國人旅客，他們看起來很熱情。</p>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-center mb-2 mb-md-2 gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">你的任務</p>
-                                          <p class="px-2 fs-6 mb-0">與飯店櫃檯人員對話，負責幫大家辦理入住手續。</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">任務說明</p>
+                                          <p class="px-2 fs-6 mb-0">拿出兩百分的服務超能力，回答旅客們的問題。</p>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-start mb-2 mb-md-2 gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">特別任務</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">學習要點</p>
                                           <ul class="list-unstyled px-2 fs-6">
-                                            <li>➀、詢問房間是否有 Wi-Fi，並向櫃檯人員要 Wi-Fi 密碼。</li>
-                                            <li>➁、回答 Tina，自己為什麼學日文。</li>
+                                            <li>➀、學習櫃檯人員視角，清楚表達。</li>
+                                            <li>➁、認識櫃檯服務工作的必用單字與會話句型。</li>
                                           </ul>
                                         </li>
                                         <li class="d-flex flex-column flex-md-row align-items-md-center gap-1">
-                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">求救機會</p>
-                                          <p class="px-2 fs-6 mb-0">卡關時，舉手說「<span class="fw-bold text-danger text-decoration-underline">手伝ってください</span>」來獲得抽取求救卡的機會，僅限使用一次。</p>
+                                          <p class="px-2 py-1 border-primary text-primary bg-secondary rounded fs-6 fw-bolder mb-0">作答說明</p>
+                                          <p class="px-2 fs-6 mb-0">下載作答紙，完成「聽寫題目」中挖空的句子，<span class="fw-bold text-danger text-decoration-underline">將答案寫進作答紙中。</span></p>
                                         </li>
                                       </ul>
                                       <!--任務清單說明-->
@@ -1966,12 +1969,12 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="hotelLessonOneDTaskCardAccordion_002_heading">
                                     <button class="accordion-button collapsed fs-5 fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#hotelLessonOneDTaskCardAccordion_002_collapseContent" aria-expanded="true" aria-controls="hotelLessonOneDTaskCardAccordion_002_collapseContent">
-                                      老師的小提示
+                                      攻略提示
                                     </button>
                                   </h2>
                                   <div id="hotelLessonOneDTaskCardAccordion_002_collapseContent" class="accordion-collapse collapse" aria-labelledby="hotelLessonOneDTaskCardAccordion_002_heading">
                                     <div class="accordion-body">
-                                      同學可以先閱讀<strong>「任務卡」</strong>，根據文法句型、單字來組成句子，試著完成對話吧！
+                                      同學可以在閱讀完「任務詳情」後，點擊<strong>「認識單字」、「文法句型」</strong>來學習本關知識點，吸收後試著利用這些知識點來完成任務內容吧！
                                     </div>
                                   </div>
                                 </div>
@@ -2207,12 +2210,12 @@
                             <div class="tab-pane fade" id="hotelLessonOneDTaskCardTabs_004" role="tabpanel" aria-labelledby="hotelLessonOneDTaskCardTabs_Practice">
     
                               <div class="d-flex flex-column flex-md-row justify-content-between mb-3"> 
-                                <p class="fs-5 fw-bold mb-1">你正在與櫃檯人員對話...</p>
-                                <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-secondary rounded fs-6 fw-bolder text-primary">
+                                <p class="fs-5 fw-bold mb-1">回答旅客問題：</p>
+                                <!-- <ul class="list-unstyled d-flex align-items-center px-2 py-1 mb-0 bg-secondary rounded fs-6 fw-bolder text-primary">
                                   <li><img src="img/icon-gull-notify.svg" alt="notify" class="img-fluid d-block me-2">
                                   </li>
                                   <li>播放來練習聽寫</li>
-                                </ul>
+                                </ul> -->
                                 <!--補充單字標題表頭-->  
                               </div>
                               <!--聽寫練習引導說明-->
@@ -2551,7 +2554,7 @@
                         <!--modal-body-->
     
                         <div class="modal-footer mt-auto">
-                          <button type="button" class="btn btn-outline-primary w-100" data-bs-dismiss="modal">我知道了</button>
+                          <button type="button" class="btn btn-outline-primary w-100" data-bs-dismiss="modal">離開任務</button>
                         </div>
                         <!--modal-footer-->
                       </div>
@@ -2612,8 +2615,8 @@
                     <div class="card-body h-100 d-flex flex-column p-0">
                       <div class="d-flex align-items-center justify-content-between">
                         <h5 class="card-title mb-0">第一題</h5>
-                        <button class="btn btn-dark text-center rounded-circle p-0 p-1" onmousedown="PlaySound('hotelShortTalksCard_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
-                        </button>
+                        <!-- <button class="btn btn-dark text-center rounded-circle p-0 p-1" onmousedown="PlaySound('hotelShortTalksCard_001')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
+                        </button> -->
                       </div>
                       <ul class="card-text list-unstyled mb-0">
                         <li>➀、早餐時間是幾點？</li>
@@ -2716,9 +2719,9 @@
             <li class="nav-item text-nowrap" role="presentation">
               <button class="nav-link" id="hotelVocabSectionTabs_GroupTwo" data-bs-toggle="pill" data-bs-target="#hotelVocabSectionTabs_002" type="button" role="tab" aria-controls="hotelVocabSectionTabs_002" aria-selected="false">房間物品</button>
             </li>
-            <li class="nav-item text-nowrap" role="presentation">
-              <button class="nav-link" id="hotelVocabSectionTabs_GroupThree" data-bs-toggle="pill" data-bs-target="#hotelVocabSectionTabs_003" type="button" role="tab" aria-controls="hotelVocabSectionTabs_003" aria-selected="false">Contact-就是故意</button>
-            </li>
+            <!-- <li class="nav-item text-nowrap" role="presentation">
+              <button class="nav-link" id="hotelVocabSectionTabs_GroupThree" data-bs-toggle="pill" data-bs-target="#hotelVocabSectionTabs_003" type="button" role="tab" aria-controls="hotelVocabSectionTabs_003" aria-selected="false">擴充項目</button>
+            </li> -->
           </ul>
           <!-- tabs 導覽按鈕-->
           <div class="tab-content bg-light pb-3 rounded-bottom" id="hotelVocabSectionTabs_tabContent">
@@ -3235,14 +3238,14 @@
             </div>
             <!--tab-pane-001-->
     
-            <div class="tab-pane fade container" id="hotelVocabSectionTabs_003" role="tabpanel" aria-labelledby="hotelVocabSectionTabs_GroupThree">...區塊三
-            </div>
+            <!-- <div class="tab-pane fade container" id="hotelVocabSectionTabs_003" role="tabpanel" aria-labelledby="hotelVocabSectionTabs_GroupThree">擴充項目・三
+            </div> -->
             <!--tab-pane-003-->
           </div>
           <!-- tabs content-->
         </div><!--container-->
       </section>
-      <!--單字村莊-->
+      <!--單字補給站-->
 
       <footer class="bg-dark py-4">
         <div class="container mx-auto d-flex justify-content-between align-items-center flex-lg-row flex-column gap-2">
