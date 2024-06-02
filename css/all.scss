@@ -54,9 +54,7 @@
 // @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Custom Layout & components
-// @import "../css/components/nav";
-// @import "../css/components/navbar";
-@import "../css/components/buttons";
+// @import "../css/components/buttons";
 
 body{
     /* background-image: url("../img/bg_002.svg");
@@ -66,13 +64,13 @@ body{
     background-size: 3rem 3rem;
 }
 
-.bg-theme-light{
-    background-color: #EAEDE7;
-}
+// .bg-theme-light{
+//     background-color: #EAEDE7;
+// }
 
-.bg-theme-dark{
-    background-color: #415948;
-}
+// .bg-theme-dark{
+//     background-color: #415948;
+// }
 
 .fs-7{
     font-size: 14px;
