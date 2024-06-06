@@ -315,9 +315,8 @@
                                     <tr>
                                       <th scope="col" width="5%">#</th>
                                       <th scope="col" width="30%">句型結構</th>
-                                      <th scope="col" width="15%">中譯</th>
-                                      <th scope="col" width="30%">例句</th>
-                                      <th scope="col" width="20%">播放</th>
+                                      <th scope="col" width="20%">中譯</th>
+                                      <th scope="col" width="45%">例句</th>
                                     </tr>
                                   </thead>
                                   <tbody>
@@ -328,16 +327,17 @@
                                       <td>有Ｎ（嗎）</td>
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
-                                          <li>お金がありますか？</li>
+                                          <li>➀、お金がありますか？</li>
                                           <li class="text-muted fs-7">
                                             有錢嗎？
                                           </li>
+                                          <li>➁、ここにトイレがありますか？</li>
+                                          <li class="text-muted fs-7">
+                                            這裡有廁所嗎？
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 詢問某物是否存在，或是否有某樣東西。
+                                          </li>
                                         </ul>
-                                      </td>
-                                      <td>
-                                        <button id="playButton4" class="btn btn-primary d-flex px-1 w-100">
-                                          <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                        </button>
                                       </td>
                                     </tr>
                                     <tr>
@@ -346,16 +346,17 @@
                                       <td>在場所有Ｎ嗎</td>
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
-                                          <li>ホテルに食べ物がありますか？</li>
+                                          <li>➀、公園にトイレがありますか？</li>
                                           <li class="text-muted fs-7">
-                                            飯店裡有吃的嗎？
+                                            公園裡有廁所嗎？
+                                          </li>
+                                          <li>➁、部屋にスリッパがありますか？</li>
+                                          <li class="text-muted fs-7">
+                                            房間裡有拖鞋嗎？
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 詢問某個地方是否有某樣東西：「在某個地方有...嗎？」。
                                           </li>
                                         </ul>
-                                      </td>
-                                      <td>
-                                        <button id="playButton5" class="btn btn-primary d-flex px-1 w-100">
-                                          <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                        </button>
                                       </td>
                                     </tr>
                                     <tr>
@@ -364,16 +365,17 @@
                                       <td>從～～到～～</td>
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
-                                          <li>９時から１２時まで仕事をします。</li>
+                                          <li>➀、９時から１２時まで仕事をします。</li>
                                           <li class="text-muted fs-7">
                                             我從早上 9 點工作到中午 12 點。
                                           </li>
+                                          <li>➁、4月から6月まで。</li>
+                                          <li class="text-muted fs-7">
+                                            從 4 月到 6 月。
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 意思是「從...到...」。
+                                          </li>
                                         </ul>
-                                      </td>
-                                      <td>
-                                        <button id="playButton6" class="btn btn-primary d-flex px-1 w-100">
-                                          <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                        </button>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -437,7 +439,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">〇〇ですね。三泊（さんぱく）ですか？
+                                            <p class="text-strong mb-0">〇〇ですね。三泊（さんぱく）ですか？
                                             </p>
                                             <p class="text-muted fs-7 mb-0">ＯＯ先生，請問是入住３晚嗎？
                                             </p>
@@ -475,7 +477,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">パスポートをお願い致します。
+                                            <p class="text-strong mb-0">パスポートをお願い致します。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">麻煩給我您的護照，謝謝。
                                             </p>
@@ -513,7 +515,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">少々お待ちください。
+                                            <p class="text-strong mb-0">少々お待ちください。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">謝謝，請稍等一下。
                                             </p>
@@ -532,7 +534,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">お待たせ致しました。
+                                            <p class="text-strong mb-0">お待たせ致しました。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">久等了。
                                             </p>
@@ -551,7 +553,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">こちらの資料を確認（かくにん）頂いてから、電話（でんわ）と住所（じゅうしょ）をご記入ください。
+                                            <p class="text-strong mb-0">こちらの資料を確認（かくにん）頂いてから、電話（でんわ）と住所（じゅうしょ）をご記入ください。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">請確認這邊的資料並填入您的電話和地址。
                                             </p>
@@ -570,7 +572,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">あとは、こちらにサインをお願い致します。
+                                            <p class="text-strong mb-0">あとは、こちらにサインをお願い致します。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">最後，請在這邊簽名。
                                             </p>
@@ -608,7 +610,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">ありがとうございました。こちらは部屋のカードと朝の朝食券です。
+                                            <p class="text-strong mb-0">ありがとうございました。こちらは部屋のカードと朝の朝食券です。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">謝謝，這裡是您的房卡和早餐券。
                                             </p>
@@ -646,7 +648,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">朝食は朝７時から１１時まで。朝食券をお持ち、一階のバイキングまでお願い致します。
+                                            <p class="text-strong mb-0">朝食は朝７時から１１時まで。朝食券をお持ち、一階のバイキングまでお願い致します。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">早餐從早上 7 點開始到 11 點，請拿早餐券到 1 樓的百匯餐廳。
                                             </p>
@@ -684,7 +686,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">はい。部屋ではございます。パスワードはこちらです。（部屋に置いてあります。）
+                                            <p class="text-strong mb-0">はい。部屋ではございます。パスワードはこちらです。（部屋に置いてあります。）
                                             </p>
                                             <p class="text-muted fs-7 mb-0">有的，密碼在這邊。
                                             </p>
@@ -972,9 +974,8 @@
                                     <tr>
                                       <th scope="col" width="5%">#</th>
                                       <th scope="col" width="30%">句型結構</th>
-                                      <th scope="col" width="15%">中譯</th>
-                                      <th scope="col" width="30%">例句</th>
-                                      <th scope="col" width="20%">播放</th>
+                                      <th scope="col" width="20%">中譯</th>
+                                      <th scope="col" width="45%">例句</th>
                                     </tr>
                                   </thead>
                                   <tbody>
@@ -985,16 +986,13 @@
                                       <td>只有Ｎ</td>
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
-                                          <li>お金がありますか？</li>
+                                          <li>歯ブラシは一本しかありません。</li>
                                           <li class="text-muted fs-7">
-                                            有錢嗎？
+                                            牙刷只有一支。
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 意思是「只有...」。
                                           </li>
                                         </ul>
-                                      </td>
-                                      <td>
-                                        <button id="playButton4" class="btn btn-primary d-flex px-1 w-100">
-                                          <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                        </button>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -1037,7 +1035,7 @@
                                           <td>-</td>
                                           <td>辞書形</td>
                                         </tr>
-                                        <tr class="table-warning">
+                                        <tr class="table-moore">
                                           <td>せ</td>
                                           <td>る</td>
                                           <td>可能形</td>
@@ -1074,7 +1072,7 @@
                                           <td>る</td>
                                           <td>辞書形</td>
                                         </tr>
-                                        <tr class="table-warning">
+                                        <tr class="table-moore">
                                           <td>べ</td>
                                           <td>られる</td>
                                           <td>可能形</td>
@@ -1147,7 +1145,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">はい。かしこまりました。こちらの荷物は全部何件ですか？
+                                            <p class="text-strong mb-0">はい。かしこまりました。こちらの荷物は全部何件ですか？
                                             </p>
                                             <p class="text-muted fs-7 mb-0">好的，請問行李總共幾件呢？
                                             </p>
@@ -1185,7 +1183,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">かしこまりました。四件お預かりいたします。それでは午後十五時に部屋までお持ちいたしましょうか。
+                                            <p class="text-strong mb-0">かしこまりました。四件お預かりいたします。それでは午後十五時に部屋までお持ちいたしましょうか。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">好的，幫您寄放４件行李，請在回來時，出示行李條領行李。
                                             </p>
@@ -1242,7 +1240,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">申し訳ございません。どのような備品が足りないのでしょうか？
+                                            <p class="text-strong mb-0">申し訳ございません。どのような備品が足りないのでしょうか？
                                             </p>
                                             <p class="text-muted fs-7 mb-0">真是不好意思，請問是什麼備品不足呢？
                                             </p>
@@ -1261,7 +1259,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="text-strong mb-0">タオルが1枚しかありません。もう１枚追加していただけますか？
+                                            <p class="text-strong mb-0">タオルが１枚しかありません。もう１枚追加していただけますか？
                                             </p>
                                             <p class="text-muted fs-7 mb-0">毛巾只有一條，可以再給我一條嗎？
                                             </p>
@@ -1280,7 +1278,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">承知いたしました。すぐにお持ちいたしますので、お待ちください。
+                                            <p class="text-strong mb-0">承知いたしました。すぐにお持ちいたしますので、お待ちください。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">好的，馬上幫您拿去，請稍等。
                                             </p>
@@ -1318,7 +1316,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">どういたしまして。
+                                            <p class="text-strong mb-0">どういたしまして。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">不客氣。
                                             </p>
@@ -1597,7 +1595,8 @@
                                     <tr>
                                       <th scope="col" width="5%">#</th>
                                       <th scope="col" width="30%">句型結構</th>
-                                      <th scope="col" width="15%">中譯</th>
+                                      <th scope="col" width="20%">中譯</th>
+                                      <th scope="col" width="45%">例句</th>
                                     </tr>
                                   </thead>
                                   <tbody>
@@ -1606,16 +1605,46 @@
                                       <td>N + が + できます
                                       </td>
                                       <td>可以 N～</td>
+                                      <td>
+                                        <ul class="align-items-center list-unstyled mb-0">
+                                          <li>車の運転ができます。</li>
+                                          <li class="text-muted fs-7">
+                                            會開車。
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 意思是「能夠...」或「可以...」。
+                                          </li>
+                                        </ul>
+                                      </td>
                                     </tr>
                                     <tr>
                                       <th scope="row">2</th>
                                       <td>V + て + いきます</td>
                                       <td>V 去～</td>
+                                      <td>
+                                        <ul class="align-items-center list-unstyled mb-0">
+                                          <li>雨傘とか持って行きますか？</li>
+                                          <li class="text-muted fs-7">
+                                            要帶雨傘去嗎？
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 詢問是否會帶上或攜帶某種物品。
+                                          </li>
+                                        </ul>
+                                      </td>
                                     </tr>
                                     <tr>
                                       <th scope="row">3</th>
                                       <td>V + て + きます</td>
                                       <td>V 來～</td>
+                                      <td>
+                                        <ul class="align-items-center list-unstyled mb-0">
+                                          <li>毎日ジョギングしてきます。</li>
+                                          <li class="text-muted fs-7">
+                                            我每天來跑步。
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 「きます」表示動作從別處來或往這裡去。
+                                          </li>
+                                        </ul>
+                                      </td>
                                     </tr>
                                   </tbody>
                                 </table>
@@ -1652,6 +1681,10 @@
                                     </tr>
                                   </thead>
                                   <tbody>
+                                    <tr class="table-moore">
+                                      <th scope="row" colspan="3">➀、詢問泡湯時間、需要攜帶什麼</th>
+                                    </tr>
+                                    <!--情境一-->
                                     <tr>
                                       <th scope="row">お客様</th>
                                       <td>
@@ -1676,7 +1709,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">温泉は朝７時から夜１０時までご利用いただけます。
+                                            <p class="text-strong mb-0">温泉は朝７時から夜１０時までご利用いただけます。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">溫泉從早上 7 點到晚上 10 點皆可以利用。
                                             </p>
@@ -1714,7 +1747,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">入浴する前に、タオルを含めて、備品は浴場にありますので、そちらのをご利用いただけます。
+                                            <p class="text-strong mb-0">入浴する前に、タオルを含めて、備品は浴場にありますので、そちらのをご利用いただけます。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">在泡湯前，包含毛巾等備品皆會放置在浴場，可以使用。
                                             </p>
@@ -1747,6 +1780,10 @@
                                       </td>
                                     </tr>
                                     <!--旅客-->
+                                    <tr class="table-moore">
+                                      <th scope="row" colspan="3">➁、退房並使用信用卡結帳</th>
+                                    </tr>
+                                    <!--情境二-->
                                     <tr>
                                       <th scope="row">お客様</th>
                                       <td>
@@ -1771,7 +1808,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">はい、かしこまりました。本日はご利用をいただき、誠にありがとうございました！
+                                            <p class="text-strong mb-0">はい、かしこまりました。本日はご利用をいただき、誠にありがとうございました！
                                             </p>
                                             <p class="text-muted fs-7 mb-0">好的，感謝您這幾天的入住！
                                             </p>
@@ -1790,7 +1827,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">こちらは宿泊代になりますが、お支払いはどうなさいますか？
+                                            <p class="text-strong mb-0">こちらは宿泊代になりますが、お支払いはどうなさいますか？
                                             </p>
                                             <p class="text-muted fs-7 mb-0">這邊是您的住宿費，請問要怎麼支付呢？
                                             </p>
@@ -2139,9 +2176,8 @@
                                     <tr>
                                       <th scope="col" width="5%">#</th>
                                       <th scope="col" width="30%">句型結構</th>
-                                      <th scope="col" width="15%">中譯</th>
-                                      <th scope="col" width="30%">例句</th>
-                                      <th scope="col" width="20%">播放</th>
+                                      <th scope="col" width="20%">中譯</th>
+                                      <th scope="col" width="45%">例句</th>
                                     </tr>
                                   </thead>
                                   <tbody>
@@ -2152,16 +2188,17 @@
                                       <td>麻煩 Ｎ～</td>
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
-                                          <li>？？？？？</li>
+                                          <li>➀、コーヒーをお願いいたします。</li>
                                           <li class="text-muted fs-7">
-                                            ？？？？？
+                                            請給我一杯咖啡。
+                                          </li>
+                                          <li>➁、サインをお願いいたします。</li>
+                                          <li class="text-muted fs-7">
+                                            請簽名。
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 意思是「請...」或「麻煩請幫我...」。
                                           </li>
                                         </ul>
-                                      </td>
-                                      <td>
-                                        <button id="playButton4" class="btn btn-primary d-flex px-1 w-100">
-                                          <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                        </button>
                                       </td>
                                     </tr>
                                     <tr>
@@ -2170,16 +2207,13 @@
                                       <td>請～</td>
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
-                                          <li>？？？？？？</li>
+                                          <li>コーヒーを飲んでください。</li>
                                           <li class="text-muted fs-7">
-                                            ？？？？？
+                                            請喝咖啡。
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 用於禮貌地請求或命令某事，意思是「請...」或「請你...」。
                                           </li>
                                         </ul>
-                                      </td>
-                                      <td>
-                                        <button id="playButton5" class="btn btn-primary d-flex px-1 w-100">
-                                          <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                        </button>
                                       </td>
                                     </tr>
                                     <tr>
@@ -2188,16 +2222,13 @@
                                       <td>讓我幫您 Ｖ</td>
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
-                                          <li>？？？？？？</li>
+                                          <li>お手伝いいたします。</li>
                                           <li class="text-muted fs-7">
-                                            ？？？？？
+                                            我將協助您。
+                                          </li>
+                                          <li class="text-strong fs-7 mb-0">※ 用於商業場合或對客戶、長輩等交流。
                                           </li>
                                         </ul>
-                                      </td>
-                                      <td>
-                                        <button id="playButton6" class="btn btn-primary d-flex px-1 w-100">
-                                          <img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block mx-auto">
-                                        </button>
                                       </td>
                                     </tr>
                                   </tbody>
@@ -2240,7 +2271,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">すみません、____________。〇〇です。
+                                            <p class="text-strong mb-0">すみません、____________。〇〇です。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">旅客：不好意思，我有預約。我是ＯＯ。
                                             </p>
@@ -2280,7 +2311,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">はい。
+                                            <p class="text-strong mb-0">はい。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">是的。
                                             </p>
@@ -2318,7 +2349,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">はい。こちらです。
+                                            <p class="text-strong mb-0">はい。こちらです。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">好，這裡。
                                             </p>
@@ -2413,7 +2444,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">はい。
+                                            <p class="text-strong mb-0">はい。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">好，這裡。
                                             </p>
@@ -2451,7 +2482,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">すみません、朝ごはんは何時から何時までですか？
+                                            <p class="text-strong mb-0">すみません、朝ごはんは何時から何時までですか？
                                             </p>
                                             <p class="text-muted fs-7 mb-0">不好意思，請問早餐是幾點到幾點呢？
                                             </p>
@@ -2489,7 +2520,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">はい。わかりました。すみませんが、部屋に Wi-Fi がありますか？
+                                            <p class="text-strong mb-0">はい。わかりました。すみませんが、部屋に Wi-Fi がありますか？
                                             </p>
                                             <p class="text-muted fs-7 mb-0">好我知道了，另外房間有 Wi-Fi 嗎？
                                             </p>
@@ -2527,7 +2558,7 @@
                                       <td>
                                         <ul class="align-items-center list-unstyled mb-0">
                                           <li>
-                                            <p class="mb-0">ありがとうございます。
+                                            <p class="text-strong mb-0">ありがとうございます。
                                             </p>
                                             <p class="text-muted fs-7 mb-0">謝謝。
                                             </p>
