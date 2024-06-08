@@ -47,7 +47,7 @@ function PlaySound(soundName) {
         var izakayaVocabSectionTabs_kozara = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_kozara.mp3');
         izakayaVocabSectionTabs_kozara.play();
       break;
-    case 'izakayaVocabSectionTabs_okawari ':
+    case 'izakayaVocabSectionTabs_okawari':
         var izakayaVocabSectionTabs_okawari  = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_okawari .mp3');
         izakayaVocabSectionTabs_okawari .play();
       break;
