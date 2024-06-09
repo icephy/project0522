@@ -1,11 +1,11 @@
 // 播放聲音的函式
 function PlaySound(soundName) {
   // 根據聲音名稱播放對應的聲音
-  // 任務卡A-001-會話練習 
+  // 任務卡A-會話練習 
   switch(soundName) {
-    case 'hotelLessonOneAConv_001':
-      var hotelLessonOneAConv_001 = new Audio('https://icephy.github.io/project0522/audio/sound/hotel/A/conversation/hotelLessonOneAConv_001.mp3');
-      hotelLessonOneAConv_001.play();
+    case 'izakayaLessonOneAConv_001':
+      var izakayaLessonOneAConv_001 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/conversation/izakayaLessonOneAConv_001.mp3');
+      izakayaLessonOneAConv_001.play();
       break;
 
   // 任務卡A-001-單字 
