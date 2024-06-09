@@ -6,7 +6,23 @@ function PlaySound(soundName) {
     case 'izakayaLessonOneAConv_001':
       var izakayaLessonOneAConv_001 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/conversation/izakayaLessonOneAConv_001.mp3');
       izakayaLessonOneAConv_001.play();
-      break;
+    break;
+    case 'izakayaLessonOneAConv_002':
+      var izakayaLessonOneAConv_002 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/conversation/izakayaLessonOneAConv_002.mp3');
+      izakayaLessonOneAConv_002.play();
+    break;
+    case 'izakayaLessonOneAConv_003':
+      var izakayaLessonOneAConv_003 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/conversation/izakayaLessonOneAConv_003.mp3');
+      izakayaLessonOneAConv_003.play();
+    break;
+    case 'izakayaLessonOneAConv_004':
+      var izakayaLessonOneAConv_004 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/conversation/izakayaLessonOneAConv_004.mp3');
+      izakayaLessonOneAConv_004.play();
+    break;
+    case 'izakayaLessonOneAConv_005':
+      var izakayaLessonOneAConv_005 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/conversation/izakayaLessonOneAConv_005.mp3');
+      izakayaLessonOneAConv_005.play();
+    break;
 
   // 任務卡A-001-單字 
     case 'hotelLessonOneAVocab_001':
