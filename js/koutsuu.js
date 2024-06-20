@@ -51,23 +51,47 @@ function PlaySound(soundName) {
       var koutsuuLessonOneAConv_012 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/conversation/koutsuuLessonOneAConv_012.mp3');
       koutsuuLessonOneAConv_012.play();
     break;
+    case 'koutsuuLessonOneAConv_013':
+      var koutsuuLessonOneAConv_013 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/conversation/koutsuuLessonOneAConv_013.mp3');
+      koutsuuLessonOneAConv_013.play();
+    break;
 
   // 任務卡A-單字 
     case 'koutsuuLessonOneAVocab_001':
-      var koutsuuLessonOneAVocab_001 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/vocabulary/izakayaLessonOneAVocab_001.mp3');
-      izakayaLessonOneAVocab_001.play();
+      var koutsuuLessonOneAVocab_001 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_001.mp3');
+      koutsuuLessonOneAVocab_001.play();
     break;
-    case 'izakayaLessonOneAVocab_002':
-      var izakayaLessonOneAVocab_002 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/vocabulary/izakayaLessonOneAVocab_002.mp3');
-      izakayaLessonOneAVocab_002.play();
+    case 'koutsuuLessonOneAVocab_002':
+      var koutsuuLessonOneAVocab_002 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_002.mp3');
+      koutsuuLessonOneAVocab_002.play();
     break;
-    case 'izakayaLessonOneAVocab_003':
-      var izakayaLessonOneAVocab_003 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/vocabulary/izakayaLessonOneAVocab_003.mp3');
-      izakayaLessonOneAVocab_003.play();
+    case 'koutsuuLessonOneAVocab_003':
+      var koutsuuLessonOneAVocab_003 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_003.mp3');
+      koutsuuLessonOneAVocab_003.play();
     break;
-    case 'izakayaLessonOneAVocab_004':
-      var izakayaLessonOneAVocab_004 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/A/vocabulary/izakayaLessonOneAVocab_004.mp3');
-      izakayaLessonOneAVocab_004.play();
+    case 'koutsuuLessonOneAVocab_004':
+      var koutsuuLessonOneAVocab_004 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_004.mp3');
+      koutsuuLessonOneAVocab_004.play();
+    break;
+    case 'koutsuuLessonOneAVocab_005':
+      var koutsuuLessonOneAVocab_005 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_005.mp3');
+      koutsuuLessonOneAVocab_005.play();
+    break;
+    case 'koutsuuLessonOneAVocab_006':
+      var koutsuuLessonOneAVocab_006 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_006.mp3');
+      koutsuuLessonOneAVocab_006.play();
+    break;
+    case 'koutsuuLessonOneAVocab_007':
+      var koutsuuLessonOneAVocab_007 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_007.mp3');
+      koutsuuLessonOneAVocab_007.play();
+    break;
+    case 'koutsuuLessonOneAVocab_008':
+      var koutsuuLessonOneAVocab_008 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_008.mp3');
+      koutsuuLessonOneAVocab_008.play();
+    break;
+    case 'koutsuuLessonOneAVocab_009':
+      var koutsuuLessonOneAVocab_009 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/A/vocabulary/koutsuuLessonOneAVocab_009.mp3');
+      koutsuuLessonOneAVocab_009.play();
     break;
 
   // 任務卡B-會話
