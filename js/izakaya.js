@@ -353,10 +353,6 @@ function PlaySound(soundName) {
     break;
 
     // 短文聽力
-    case 'hotelShortTalksCard_001':
-        var hotelShortTalksCard_001 = new Audio('https://icephy.github.io/project0522/audio/sound/hotel/short_talks/hotelShortTalksCard_001.mp3');
-        hotelShortTalksCard_001.play();
-      break;
 
     // 單字區（一）
       case 'izakayaVocabSectionTabs_oshibori':

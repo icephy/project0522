@@ -184,200 +184,219 @@ function PlaySound(soundName) {
     break;
 
     // 任務卡C-會話
-    case 'izakayaLessonOneCConv_001':
-      var izakayaLessonOneCConv_001 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_001.mp3');
-      izakayaLessonOneCConv_001.play();
+    case 'koutsuuLessonOneCConv_001':
+      var koutsuuLessonOneCConv_001 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_001.mp3');
+      koutsuuLessonOneCConv_001.play();
     break;
-    case 'izakayaLessonOneCConv_002':
-      var izakayaLessonOneCConv_002 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_002.mp3');
-      izakayaLessonOneCConv_002.play();
+    case 'koutsuuLessonOneCConv_002':
+      var koutsuuLessonOneCConv_002 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_002.mp3');
+      koutsuuLessonOneCConv_002.play();
     break;
-    case 'izakayaLessonOneCConv_003':
-      var izakayaLessonOneCConv_003 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_003.mp3');
-      izakayaLessonOneCConv_003.play();
+    case 'koutsuuLessonOneCConv_003':
+      var koutsuuLessonOneCConv_003 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_003.mp3');
+      koutsuuLessonOneCConv_003.play();
     break;
-    case 'izakayaLessonOneCConv_004':
-      var izakayaLessonOneCConv_004 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_004.mp3');
-      izakayaLessonOneCConv_004.play();
+    case 'koutsuuLessonOneCConv_004':
+      var koutsuuLessonOneCConv_004 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_004.mp3');
+      koutsuuLessonOneCConv_004.play();
     break;
-    case 'izakayaLessonOneCConv_005':
-      var izakayaLessonOneCConv_005 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_005.mp3');
-      izakayaLessonOneCConv_005.play();
+    case 'koutsuuLessonOneCConv_005':
+      var koutsuuLessonOneCConv_005 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_005.mp3');
+      koutsuuLessonOneCConv_005.play();
     break;
-    case 'izakayaLessonOneCConv_006':
-      var izakayaLessonOneCConv_006 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_006.mp3');
-      izakayaLessonOneCConv_006.play();
+    case 'koutsuuLessonOneCConv_006':
+      var koutsuuLessonOneCConv_006 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_006.mp3');
+      koutsuuLessonOneCConv_006.play();
     break;
-    case 'izakayaLessonOneCConv_007':
-      var izakayaLessonOneCConv_007 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_007.mp3');
-      izakayaLessonOneCConv_007.play();
+    case 'koutsuuLessonOneCConv_007':
+      var koutsuuLessonOneCConv_007 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_007.mp3');
+      koutsuuLessonOneCConv_007.play();
     break;
-    case 'izakayaLessonOneCConv_008':
-      var izakayaLessonOneCConv_008 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_008.mp3');
-      izakayaLessonOneCConv_008.play();
+    case 'koutsuuLessonOneCConv_008':
+      var koutsuuLessonOneCConv_008 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_008.mp3');
+      koutsuuLessonOneCConv_008.play();
     break;
-    case 'izakayaLessonOneCConv_009':
-      var izakayaLessonOneCConv_009 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_009.mp3');
-      izakayaLessonOneCConv_009.play();
+    case 'koutsuuLessonOneCConv_009':
+      var koutsuuLessonOneCConv_009 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_009.mp3');
+      koutsuuLessonOneCConv_009.play();
     break;
-    case 'izakayaLessonOneCConv_010':
-      var izakayaLessonOneCConv_010 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_010.mp3');
-      izakayaLessonOneCConv_010.play();
+    case 'koutsuuLessonOneCConv_010':
+      var koutsuuLessonOneCConv_010 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_010.mp3');
+      koutsuuLessonOneCConv_010.play();
     break;
-    case 'izakayaLessonOneCConv_011':
-      var izakayaLessonOneCConv_011 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_011.mp3');
-      izakayaLessonOneCConv_011.play();
+    case 'koutsuuLessonOneCConv_011':
+      var koutsuuLessonOneCConv_011 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_011.mp3');
+      koutsuuLessonOneCConv_011.play();
     break;
-    case 'izakayaLessonOneCConv_012':
-      var izakayaLessonOneCConv_012 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_012.mp3');
-      izakayaLessonOneCConv_012.play();
+    case 'koutsuuLessonOneCConv_012':
+      var koutsuuLessonOneCConv_012 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_012.mp3');
+      koutsuuLessonOneCConv_012.play();
     break;
-    case 'izakayaLessonOneCConv_013':
-      var izakayaLessonOneCConv_013 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_013.mp3');
-      izakayaLessonOneCConv_013.play();
+    case 'koutsuuLessonOneCConv_013':
+      var koutsuuLessonOneCConv_013 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_013.mp3');
+      koutsuuLessonOneCConv_013.play();
     break;
-    case 'izakayaLessonOneCConv_014':
-      var izakayaLessonOneCConv_014 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_014.mp3');
-      izakayaLessonOneCConv_014.play();
+    case 'koutsuuLessonOneCConv_014':
+      var koutsuuLessonOneCConv_014 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_014.mp3');
+      koutsuuLessonOneCConv_014.play();
     break;
-    case 'izakayaLessonOneCConv_015':
-      var izakayaLessonOneCConv_015 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_015.mp3');
-      izakayaLessonOneCConv_015.play();
+    case 'koutsuuLessonOneCConv_015':
+      var koutsuuLessonOneCConv_015 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_015.mp3');
+      koutsuuLessonOneCConv_015.play();
     break;
-    case 'izakayaLessonOneCConv_016':
-      var izakayaLessonOneCConv_016 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_016.mp3');
-      izakayaLessonOneCConv_016.play();
+    case 'koutsuuLessonOneCConv_016':
+      var koutsuuLessonOneCConv_016 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_016.mp3');
+      koutsuuLessonOneCConv_016.play();
     break;
-    case 'izakayaLessonOneCConv_017':
-      var izakayaLessonOneCConv_017 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_017.mp3');
-      izakayaLessonOneCConv_017.play();
+    case 'koutsuuLessonOneCConv_017':
+      var koutsuuLessonOneCConv_017 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_017.mp3');
+      koutsuuLessonOneCConv_017.play();
     break;
-    case 'izakayaLessonOneCConv_018':
-      var izakayaLessonOneCConv_018 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/conversation/izakayaLessonOneCConv_018.mp3');
-      izakayaLessonOneCConv_018.play();
+    case 'koutsuuLessonOneCConv_018':
+      var koutsuuLessonOneCConv_018 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_018.mp3');
+      koutsuuLessonOneCConv_018.play();
+    break;
+    case 'koutsuuLessonOneCConv_019':
+      var koutsuuLessonOneCConv_019 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_019.mp3');
+      koutsuuLessonOneCConv_019.play();
+    break;
+    case 'koutsuuLessonOneCConv_020':
+      var koutsuuLessonOneCConv_020 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_020.mp3');
+      koutsuuLessonOneCConv_020.play();
+    break;
+    case 'koutsuuLessonOneCConv_021':
+      var koutsuuLessonOneCConv_021 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_021.mp3');
+      koutsuuLessonOneCConv_021.play();
+    break;
+    case 'koutsuuLessonOneCConv_022':
+      var koutsuuLessonOneCConv_022 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_022.mp3');
+      koutsuuLessonOneCConv_022.play();
+    break;
+    case 'koutsuuLessonOneCConv_023':
+      var koutsuuLessonOneCConv_023 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_023.mp3');
+      koutsuuLessonOneCConv_023.play();
+    break;
+    case 'koutsuuLessonOneCConv_024':
+      var koutsuuLessonOneCConv_024 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_024.mp3');
+      koutsuuLessonOneCConv_024.play();
+    break;
+    case 'koutsuuLessonOneCConv_025':
+      var koutsuuLessonOneCConv_025 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_025.mp3');
+      koutsuuLessonOneCConv_025.play();
+    break;
+    case 'koutsuuLessonOneCConv_026':
+      var koutsuuLessonOneCConv_026 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/conversation/koutsuuLessonOneCConv_026.mp3');
+      koutsuuLessonOneCConv_026.play();
     break;
 
     // 任務卡C-單字
-    case 'izakayaLessonOneCVocab_001':
-      var izakayaLessonOneCVocab_001 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_001.mp3');
-      izakayaLessonOneCVocab_001.play();
+    case 'koutsuuLessonOneCVocab_001':
+      var koutsuuLessonOneCVocab_001 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/vocabulary/koutsuuLessonOneCVocab_001.mp3');
+      koutsuuLessonOneCVocab_001.play();
     break;
-    case 'izakayaLessonOneCVocab_002':
-      var izakayaLessonOneCVocab_002 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_002.mp3');
-      izakayaLessonOneCVocab_002.play();
+    case 'koutsuuLessonOneCVocab_002':
+      var koutsuuLessonOneCVocab_002 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/vocabulary/koutsuuLessonOneCVocab_002.mp3');
+      koutsuuLessonOneCVocab_002.play();
     break;
-    case 'izakayaLessonOneCVocab_003':
-      var izakayaLessonOneCVocab_003 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_003.mp3');
-      izakayaLessonOneCVocab_003.play();
+    case 'koutsuuLessonOneCVocab_003':
+      var koutsuuLessonOneCVocab_003 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/vocabulary/koutsuuLessonOneCVocab_003.mp3');
+      koutsuuLessonOneCVocab_003.play();
     break;
-    case 'izakayaLessonOneCVocab_004':
-      var izakayaLessonOneCVocab_004 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_004.mp3');
-      izakayaLessonOneCVocab_004.play();
+    case 'koutsuuLessonOneCVocab_004':
+      var koutsuuLessonOneCVocab_004 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/vocabulary/koutsuuLessonOneCVocab_004.mp3');
+      koutsuuLessonOneCVocab_004.play();
     break;
-    case 'izakayaLessonOneCVocab_005':
-      var izakayaLessonOneCVocab_005 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_005.mp3');
-      izakayaLessonOneCVocab_005.play();
+    case 'koutsuuLessonOneCVocab_005':
+      var koutsuuLessonOneCVocab_005 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/vocabulary/koutsuuLessonOneCVocab_005.mp3');
+      koutsuuLessonOneCVocab_005.play();
     break;
-    case 'izakayaLessonOneCVocab_006':
-      var izakayaLessonOneCVocab_006 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_006.mp3');
-      izakayaLessonOneCVocab_006.play();
+    case 'koutsuuLessonOneCVocab_006':
+      var koutsuuLessonOneCVocab_006 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/vocabulary/koutsuuLessonOneCVocab_006.mp3');
+      koutsuuLessonOneCVocab_006.play();
     break;
-    case 'izakayaLessonOneCVocab_007':
-      var izakayaLessonOneCVocab_007 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_007.mp3');
-      izakayaLessonOneCVocab_007.play();
+    case 'koutsuuLessonOneCVocab_007':
+      var koutsuuLessonOneCVocab_007 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/vocabulary/koutsuuLessonOneCVocab_007.mp3');
+      koutsuuLessonOneCVocab_007.play();
     break;
-    case 'izakayaLessonOneCVocab_008':
-      var izakayaLessonOneCVocab_008 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_008.mp3');
-      izakayaLessonOneCVocab_008.play();
+    case 'koutsuuLessonOneCVocab_008':
+      var koutsuuLessonOneCVocab_008 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/C/vocabulary/koutsuuLessonOneCVocab_008.mp3');
+      koutsuuLessonOneCVocab_008.play();
     break;
-    case 'izakayaLessonOneCVocab_009':
-      var izakayaLessonOneCVocab_009 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_009.mp3');
-      izakayaLessonOneCVocab_009.play();
-    break;
-    case 'izakayaLessonOneCVocab_010':
-      var izakayaLessonOneCVocab_010 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_010.mp3');
-      izakayaLessonOneCVocab_010.play();
-    break;
-    case 'izakayaLessonOneCVocab_011':
-      var izakayaLessonOneCVocab_011 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_011.mp3');
-      izakayaLessonOneCVocab_011.play();
-    break;
-    case 'izakayaLessonOneCVocab_012':
-      var izakayaLessonOneCVocab_012 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/C/vocabulary/izakayaLessonOneCVocab_012.mp3');
-      izakayaLessonOneCVocab_012.play();
-    break;
-
 
     // 任務卡D-會話
-    case 'izakayaLessonOneDConv_001':
-      var izakayaLessonOneDConv_001 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_001.mp3');
-      izakayaLessonOneDConv_001.play();
+    case 'koutsuuLessonOneDConv_001':
+      var koutsuuLessonOneDConv_001 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_001.mp3');
+      koutsuuLessonOneDConv_001.play();
     break;
-    case 'izakayaLessonOneDConv_002':
-      var izakayaLessonOneDConv_002 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_002.mp3');
-      izakayaLessonOneDConv_002.play();
+    case 'koutsuuLessonOneDConv_002':
+      var koutsuuLessonOneDConv_002 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_002.mp3');
+      koutsuuLessonOneDConv_002.play();
     break;
-    case 'izakayaLessonOneDConv_003':
-      var izakayaLessonOneDConv_003 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_003.mp3');
-      izakayaLessonOneDConv_003.play();
+    case 'koutsuuLessonOneDConv_003':
+      var koutsuuLessonOneDConv_003 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_003.mp3');
+      koutsuuLessonOneDConv_003.play();
     break;
-    case 'izakayaLessonOneDConv_004':
-      var izakayaLessonOneDConv_004 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_004.mp3');
-      izakayaLessonOneDConv_004.play();
+    case 'koutsuuLessonOneDConv_004':
+      var koutsuuLessonOneDConv_004 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_004.mp3');
+      koutsuuLessonOneDConv_004.play();
     break;
-    case 'izakayaLessonOneDConv_005':
-      var izakayaLessonOneDConv_005 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_005.mp3');
-      izakayaLessonOneDConv_005.play();
+    case 'koutsuuLessonOneDConv_005':
+      var koutsuuLessonOneDConv_005 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_005.mp3');
+      koutsuuLessonOneDConv_005.play();
     break;
-    case 'izakayaLessonOneDConv_006':
-      var izakayaLessonOneDConv_006 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_006.mp3');
-      izakayaLessonOneDConv_006.play();
+    case 'koutsuuLessonOneDConv_006':
+      var koutsuuLessonOneDConv_006 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_006.mp3');
+      koutsuuLessonOneDConv_006.play();
     break;
-    case 'izakayaLessonOneDConv_007':
-      var izakayaLessonOneDConv_007 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_007.mp3');
-      izakayaLessonOneDConv_007.play();
+    case 'koutsuuLessonOneDConv_007':
+      var koutsuuLessonOneDConv_007 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_007.mp3');
+      koutsuuLessonOneDConv_007.play();
     break;
-    case 'izakayaLessonOneDConv_008':
-      var izakayaLessonOneDConv_008 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_008.mp3');
-      izakayaLessonOneDConv_008.play();
+    case 'koutsuuLessonOneDConv_008':
+      var koutsuuLessonOneDConv_008 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_008.mp3');
+      koutsuuLessonOneDConv_008.play();
     break;
-    case 'izakayaLessonOneDConv_009':
-      var izakayaLessonOneDConv_009 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_009.mp3');
-      izakayaLessonOneDConv_009.play();
+    case 'koutsuuLessonOneDConv_009':
+      var koutsuuLessonOneDConv_009 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_009.mp3');
+      koutsuuLessonOneDConv_009.play();
     break;
-    case 'izakayaLessonOneDConv_010':
-      var izakayaLessonOneDConv_010 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_010.mp3');
-      izakayaLessonOneDConv_010.play();
+    case 'koutsuuLessonOneDConv_010':
+      var koutsuuLessonOneDConv_010 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_010.mp3');
+      koutsuuLessonOneDConv_010.play();
     break;
-    case 'izakayaLessonOneDConv_011':
-      var izakayaLessonOneDConv_011 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/conversation/izakayaLessonOneDConv_011.mp3');
-      izakayaLessonOneDConv_011.play();
+    case 'koutsuuLessonOneDConv_011':
+      var koutsuuLessonOneDConv_011 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_011.mp3');
+      koutsuuLessonOneDConv_011.play();
+    break;
+    case 'koutsuuLessonOneDConv_012':
+      var koutsuuLessonOneDConv_012 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/conversation/koutsuuLessonOneDConv_012.mp3');
+      koutsuuLessonOneDConv_012.play();
     break;
 
     // 任務卡D-單字
-    case 'izakayaLessonOneDVocab_001':
-      var izakayaLessonOneDVocab_001 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/vocabulary/izakayaLessonOneDVocab_001.mp3');
-      izakayaLessonOneDVocab_001.play();
+    case 'koutsuuLessonOneDVocab_001':
+      var koutsuuLessonOneDVocab_001 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/vocabulary/koutsuuLessonOneDVocab_001.mp3');
+      koutsuuLessonOneDVocab_001.play();
     break;
-    case 'izakayaLessonOneDVocab_002':
-      var izakayaLessonOneDVocab_002 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/vocabulary/izakayaLessonOneDVocab_002.mp3');
-      izakayaLessonOneDVocab_002.play();
+    case 'koutsuuLessonOneDVocab_002':
+      var koutsuuLessonOneDVocab_002 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/vocabulary/koutsuuLessonOneDVocab_002.mp3');
+      koutsuuLessonOneDVocab_002.play();
     break;
-    case 'izakayaLessonOneDVocab_003':
-      var izakayaLessonOneDVocab_003 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/vocabulary/izakayaLessonOneDVocab_003.mp3');
-      izakayaLessonOneDVocab_003.play();
+    case 'koutsuuLessonOneDVocab_003':
+      var koutsuuLessonOneDVocab_003 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/vocabulary/koutsuuLessonOneDVocab_003.mp3');
+      koutsuuLessonOneDVocab_003.play();
     break;
-    case 'izakayaLessonOneDVocab_004':
-      var izakayaLessonOneDVocab_004 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/vocabulary/izakayaLessonOneDVocab_004.mp3');
-      izakayaLessonOneDVocab_004.play();
+    case 'koutsuuLessonOneDVocab_004':
+      var koutsuuLessonOneDVocab_004 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/vocabulary/koutsuuLessonOneDVocab_004.mp3');
+      koutsuuLessonOneDVocab_004.play();
     break;
-    case 'izakayaLessonOneDVocab_005':
-      var izakayaLessonOneDVocab_005 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/vocabulary/izakayaLessonOneDVocab_005.mp3');
-      izakayaLessonOneDVocab_005.play();
+    case 'koutsuuLessonOneDVocab_005':
+      var koutsuuLessonOneDVocab_005 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/vocabulary/koutsuuLessonOneDVocab_005.mp3');
+      koutsuuLessonOneDVocab_005.play();
     break;
-    case 'izakayaLessonOneDVocab_006':
-      var izakayaLessonOneDVocab_006 = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/D/vocabulary/izakayaLessonOneDVocab_006.mp3');
-      izakayaLessonOneDVocab_006.play();
+    case 'koutsuuLessonOneDVocab_006':
+      var koutsuuLessonOneDVocab_006 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/D/vocabulary/koutsuuLessonOneDVocab_006.mp3');
+      koutsuuLessonOneDVocab_006.play();
     break;
 
     // 短文聽力
