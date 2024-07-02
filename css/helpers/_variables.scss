@@ -51,6 +51,7 @@ $flora:   #E0E4E1 !default;  // *custom
 $moore:   #EAEDE7 !default;  // *custom
 $palepink: #E4CDD2 !default; // *custom
 $strong:  #3781dc !default;  // *custom
+$goose:  #f6ecbe !default;  // *custom
 
 // scss-docs-end color-variables
 
@@ -75,6 +76,7 @@ $colors: (
   "moore":      $moore, // *custom light-bg
   "palepink":   $palepink, //*custom
   "strong":     $strong, // *custom strong
+  "goose":     $goose, // *custom goose
 ) !default;
 // scss-docs-end colors-map
 
@@ -338,6 +340,7 @@ $theme-colors: (
   "gull":       $gull,  // *custom primary
   "flora":      $flora, // *custom secondary
   "palepink":   $palepink, // *custom
+  "goose":      $goose, // *custom
 ) !default;
 // scss-docs-end theme-colors-map
 
