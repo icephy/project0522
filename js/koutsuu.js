@@ -400,10 +400,22 @@ function PlaySound(soundName) {
     break;
 
     // 短文聽力
-    case 'hotelShortTalksCard_001':
-        var hotelShortTalksCard_001 = new Audio('https://icephy.github.io/project0522/audio/sound/hotel/short_talks/hotelShortTalksCard_001.mp3');
-        hotelShortTalksCard_001.play();
-      break;
+    case 'koutsuuShortTalksCard_001':
+        var koutsuuShortTalksCard_001 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/short_talks/koutsuuShortTalksCard_001.mp3');
+        koutsuuShortTalksCard_001.play();
+    break;
+    case 'koutsuuShortTalksCard_002':
+        var koutsuuShortTalksCard_002 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/short_talks/koutsuuShortTalksCard_002.mp3');
+        koutsuuShortTalksCard_002.play();
+    break;
+    case 'koutsuuShortTalksCard_003':
+        var koutsuuShortTalksCard_003 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/short_talks/koutsuuShortTalksCard_003.mp3');
+        koutsuuShortTalksCard_003.play();
+    break;
+    case 'koutsuuShortTalksCard_004':
+        var koutsuuShortTalksCard_004 = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/short_talks/koutsuuShortTalksCard_004.mp3');
+        koutsuuShortTalksCard_004.play();
+    break;
 
     // 單字區（一）
       case 'izakayaVocabSectionTabs_oshibori':

@@ -51,7 +51,8 @@ $flora:   #E0E4E1 !default;  // *custom
 $moore:   #EAEDE7 !default;  // *custom
 $palepink: #E4CDD2 !default; // *custom
 $strong:  #3781dc !default;  // *custom
-$goose:  #f6ecbe !default;  // *custom
+$goose:  #f6ecbe !default;  // *custom 
+$serenity:  #c7ced7 !default;  // *custom
 
 // scss-docs-end color-variables
 
@@ -77,6 +78,7 @@ $colors: (
   "palepink":   $palepink, //*custom
   "strong":     $strong, // *custom strong
   "goose":     $goose, // *custom goose
+  "serenity":     $serenity, // *custom serenity
 ) !default;
 // scss-docs-end colors-map
 
@@ -324,6 +326,7 @@ $flora:         $flora !default; // *custom
 $moore:         $moore !default; // *custom
 $palepink:      $palepink !default; // *custom
 $strong:        $strong !default; // *custom
+$serenity:        $serenity !default; // *custom
 // scss-docs-end theme-color-variables
 // scss-docs-start theme-colors-map
 $theme-colors: (
@@ -341,6 +344,7 @@ $theme-colors: (
   "flora":      $flora, // *custom secondary
   "palepink":   $palepink, // *custom
   "goose":      $goose, // *custom
+  "serenity":   $serenity, // *custom
 ) !default;
 // scss-docs-end theme-colors-map
 
