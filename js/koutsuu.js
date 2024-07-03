@@ -418,173 +418,116 @@ function PlaySound(soundName) {
     break;
 
     // 單字區（一）
-      case 'izakayaVocabSectionTabs_oshibori':
-        var izakayaVocabSectionTabs_oshibori = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_oshibori.mp3');
-        izakayaVocabSectionTabs_oshibori.play();
-      break;
-      case 'izakayaVocabSectionTabs_kozara':
-        var izakayaVocabSectionTabs_kozara = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_kozara.mp3');
-        izakayaVocabSectionTabs_kozara.play();
-      break;
-      case 'izakayaVocabSectionTabs_okawari':
-        var izakayaVocabSectionTabs_okawari = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_okawari.mp3');
-        izakayaVocabSectionTabs_okawari.play();
-      break;
-      case 'izakayaVocabSectionTabs_tsuikachuumon':
-        var izakayaVocabSectionTabs_tsuikachuumon = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_tsuikachuumon.mp3');
-        izakayaVocabSectionTabs_tsuikachuumon.play();
-      break;
-      case 'izakayaVocabSectionTabs_ryoushuusho':
-        var izakayaVocabSectionTabs_ryoushuusho = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_ryoushuusho.mp3');
-        izakayaVocabSectionTabs_ryoushuusho.play();
-      break;
-      case 'izakayaVocabSectionTabs_shinagire':
-        var izakayaVocabSectionTabs_shinagire = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_shinagire.mp3');
-        izakayaVocabSectionTabs_shinagire.play();
-      break;
-      case 'izakayaVocabSectionTabs_manseki':
-        var izakayaVocabSectionTabs_manseki = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_manseki.mp3');
-        izakayaVocabSectionTabs_manseki.play();
-      break;
-      case 'izakayaVocabSectionTabs_shokki':
-        var izakayaVocabSectionTabs_shokki = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_shokki.mp3');
-        izakayaVocabSectionTabs_shokki.play();
-      break;
-      case 'izakayaVocabSectionTabs_fuooku':
-        var izakayaVocabSectionTabs_fuooku = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_fuooku.mp3');
-        izakayaVocabSectionTabs_fuooku.play();
-      break;
-      case 'izakayaVocabSectionTabs_naifu':
-        var izakayaVocabSectionTabs_naifu = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_naifu.mp3');
-        izakayaVocabSectionTabs_naifu.play();
-      break;
-      case 'izakayaVocabSectionTabs_napukin':
-        var izakayaVocabSectionTabs_napukin = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_napukin.mp3');
-        izakayaVocabSectionTabs_napukin.play();
-      break;
-      case 'izakayaVocabSectionTabs_osara':
-        var izakayaVocabSectionTabs_osara = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_osara.mp3');
-        izakayaVocabSectionTabs_osara.play();
-      break;
-      case 'izakayaVocabSectionTabs_koppu':
-        var izakayaVocabSectionTabs_koppu = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_koppu.mp3');
-        izakayaVocabSectionTabs_koppu.play();
-      break;
-      case 'izakayaVocabSectionTabs_supuun':
-        var izakayaVocabSectionTabs_supuun = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_supuun.mp3');
-        izakayaVocabSectionTabs_supuun.play();
-      break;
-      case 'izakayaVocabSectionTabs_shushoku':
-        var izakayaVocabSectionTabs_shushoku = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_shushoku.mp3');
-        izakayaVocabSectionTabs_shushoku.play();
-      break;
-      case 'izakayaVocabSectionTabs_suupu':
-        var izakayaVocabSectionTabs_suupu = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_suupu.mp3');
-        izakayaVocabSectionTabs_suupu.play();
-      break;
-      case 'izakayaVocabSectionTabs_nomimono':
-        var izakayaVocabSectionTabs_nomimono = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_nomimono.mp3');
-        izakayaVocabSectionTabs_nomimono.play();
-      break;
-      case 'izakayaVocabSectionTabs_kampai':
-        var izakayaVocabSectionTabs_kampai = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_kampai.mp3');
-        izakayaVocabSectionTabs_kampai.play();
-      break;
-      case 'izakayaVocabSectionTabs_otoshi':
-        var izakayaVocabSectionTabs_otoshi = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_otoshi.mp3');
-        izakayaVocabSectionTabs_otoshi.play();
-      break;
+    case 'koutsuuVocabSectionTabs_maeniaru':
+        var koutsuuVocabSectionTabs_maeniaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_maeniaru.mp3');
+        koutsuuVocabSectionTabs_maeniaru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_ushironiaru':
+        var koutsuuVocabSectionTabs_ushironiaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_ushironiaru.mp3');
+        koutsuuVocabSectionTabs_ushironiaru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_tsukiatariniaru':
+        var koutsuuVocabSectionTabs_tsukiatariniaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_tsukiatariniaru.mp3');
+        koutsuuVocabSectionTabs_tsukiatariniaru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_tonoaidaniaru':
+        var koutsuuVocabSectionTabs_tonoaidaniaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_tonoaidaniaru.mp3');
+        koutsuuVocabSectionTabs_tonoaidaniaru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_machikadoniaru':
+        var koutsuuVocabSectionTabs_machikadoniaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_machikadoniaru.mp3');
+        koutsuuVocabSectionTabs_machikadoniaru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_sobaniaru':
+        var koutsuuVocabSectionTabs_sobaniaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_sobaniaru.mp3');
+        koutsuuVocabSectionTabs_sobaniaru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_kousatenniaru':
+        var koutsuuVocabSectionTabs_kousatenniaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_kousatenniaru.mp3');
+        koutsuuVocabSectionTabs_kousatenniaru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_chikakuniaru':
+        var koutsuuVocabSectionTabs_chikakuniaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_chikakuniaru.mp3');
+        koutsuuVocabSectionTabs_chikakuniaru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_mukouniaru':
+        var koutsuuVocabSectionTabs_mukouniaru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_mukouniaru.mp3');
+        koutsuuVocabSectionTabs_mukouniaru.play();
+    break;
 
     // 單字區（二）
-
-      case 'izakayaVocabSectionTabs_sushi':
-        var izakayaVocabSectionTabs_sushi = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_sushi.mp3');
-        izakayaVocabSectionTabs_sushi.play();
-      break;
-      case 'izakayaVocabSectionTabs_gyouza':
-        var izakayaVocabSectionTabs_gyouza = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_gyouza.mp3');
-        izakayaVocabSectionTabs_gyouza.play();
-      break;
-      case 'izakayaVocabSectionTabs_oyakodon':
-        var izakayaVocabSectionTabs_oyakodon = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_oyakodon.mp3');
-        izakayaVocabSectionTabs_oyakodon.play();
-      break;
-      case 'izakayaVocabSectionTabs_gyuudon':
-        var izakayaVocabSectionTabs_gyuudon = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_gyuudon.mp3');
-        izakayaVocabSectionTabs_gyuudon.play();
-      break;
-      case 'izakayaVocabSectionTabs_edamame':
-        var izakayaVocabSectionTabs_edamame = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_edamame.mp3');
-        izakayaVocabSectionTabs_edamame.play();
-      break;
-      case 'izakayaVocabSectionTabs_raamen':
-        var izakayaVocabSectionTabs_raamen = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_raamen.mp3');
-        izakayaVocabSectionTabs_raamen.play();
-      break;
-      case 'izakayaVocabSectionTabs_ochazuke':
-        var izakayaVocabSectionTabs_ochazuke = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_ochazuke.mp3');
-        izakayaVocabSectionTabs_ochazuke.play();
-      break;
-      case 'izakayaVocabSectionTabs_chawanmushi':
-        var izakayaVocabSectionTabs_chawanmushi = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_chawanmushi.mp3');
-        izakayaVocabSectionTabs_chawanmushi.play();
-      break;
-      case 'izakayaVocabSectionTabs_kushiyaki':
-        var izakayaVocabSectionTabs_kushiyaki = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_kushiyaki.mp3');
-        izakayaVocabSectionTabs_kushiyaki.play();
-      break;
-      case 'izakayaVocabSectionTabs_tsukune':
-        var izakayaVocabSectionTabs_tsukune = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_tsukune.mp3');
-        izakayaVocabSectionTabs_tsukune.play();
-      break;
-      case 'izakayaVocabSectionTabs_ebifurai':
-        var izakayaVocabSectionTabs_ebifurai = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_ebifurai.mp3');
-        izakayaVocabSectionTabs_ebifurai.play();
-      break;
-      case 'izakayaVocabSectionTabs_potetofurai':
-        var izakayaVocabSectionTabs_potetofurai = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_potetofurai.mp3');
-        izakayaVocabSectionTabs_potetofurai.play();
-      break;
-      case 'izakayaVocabSectionTabs_karaage':
-        var izakayaVocabSectionTabs_karaage = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_karaage.mp3');
-        izakayaVocabSectionTabs_karaage.play();
-      break;
-      case 'izakayaVocabSectionTabs_tamagoyaki':
-        var izakayaVocabSectionTabs_tamagoyaki = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_tamagoyaki.mp3');
-        izakayaVocabSectionTabs_tamagoyaki.play();
-      break;
-      case 'izakayaVocabSectionTabs_sashimi':
-        var izakayaVocabSectionTabs_sashimi = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_sashimi.mp3');
-        izakayaVocabSectionTabs_sashimi.play();
-      break;
-      case 'izakayaVocabSectionTabs_biiru':
-        var izakayaVocabSectionTabs_biiru = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_biiru.mp3');
-        izakayaVocabSectionTabs_biiru.play();
-      break;
-      case 'izakayaVocabSectionTabs_akawain':
-        var izakayaVocabSectionTabs_akawain = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_akawain.mp3');
-        izakayaVocabSectionTabs_akawain.play();
-      break;
-      case 'izakayaVocabSectionTabs_shirowain':
-        var izakayaVocabSectionTabs_shirowain = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_shirowain.mp3');
-        izakayaVocabSectionTabs_shirowain.play();
-      break;
-      case 'izakayaVocabSectionTabs_shanpan':
-        var izakayaVocabSectionTabs_shanpan = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_shanpan.mp3');
-        izakayaVocabSectionTabs_shanpan.play();
-      break;
-      case 'izakayaVocabSectionTabs_uisukii':
-        var izakayaVocabSectionTabs_uisukii = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_uisukii.mp3');
-        izakayaVocabSectionTabs_uisukii.play();
-      break;
-      case 'izakayaVocabSectionTabs_kakuteru':
-        var izakayaVocabSectionTabs_kakuteru = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_kakuteru.mp3');
-        izakayaVocabSectionTabs_kakuteru.play();
-      break;
-      case 'izakayaVocabSectionTabs_ohiya':
-        var izakayaVocabSectionTabs_ohiya = new Audio('https://icephy.github.io/project0522/audio/sound/izakaya/vocab_section/izakayaVocabSectionTabs_ohiya.mp3');
-        izakayaVocabSectionTabs_ohiya.play();
-      break;
+    case 'koutsuuVocabSectionTabs_massuguiku':
+        var koutsuuVocabSectionTabs_massuguiku = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_massuguiku.mp3');
+        koutsuuVocabSectionTabs_massuguiku.play();
+    break;
+    case 'koutsuuVocabSectionTabs_hidariemagatte':
+        var koutsuuVocabSectionTabs_hidariemagatte = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_hidariemagatte.mp3');
+        koutsuuVocabSectionTabs_hidariemagatte.play();
+    break;
+    case 'koutsuuVocabSectionTabs_migiemagatte':
+        var koutsuuVocabSectionTabs_migiemagatte = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_migiemagatte.mp3');
+        koutsuuVocabSectionTabs_migiemagatte.play();
+    break;
+    case 'koutsuuVocabSectionTabs_modottearuku':
+        var koutsuuVocabSectionTabs_modottearuku = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_modottearuku.mp3');
+        koutsuuVocabSectionTabs_modottearuku.play();
+    break;
+    case 'koutsuuVocabSectionTabs_aruitesugiru':
+        var koutsuuVocabSectionTabs_aruitesugiru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_aruitesugiru.mp3');
+        koutsuuVocabSectionTabs_aruitesugiru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_toorinukeru':
+        var koutsuuVocabSectionTabs_toorinukeru = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_toorinukeru.mp3');
+        koutsuuVocabSectionTabs_toorinukeru.play();
+    break;
+    case 'koutsuuVocabSectionTabs_migi':
+        var koutsuuVocabSectionTabs_migi = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_migi.mp3');
+        koutsuuVocabSectionTabs_migi.play();
+    break;
+    case 'koutsuuVocabSectionTabs_hidari':
+        var koutsuuVocabSectionTabs_hidari = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_hidari.mp3');
+        koutsuuVocabSectionTabs_hidari.play();
+    break;
+    case 'koutsuuVocabSectionTabs_mae':
+        var koutsuuVocabSectionTabs_mae = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_mae.mp3');
+        koutsuuVocabSectionTabs_mae.play();
+    break;
+    case 'koutsuuVocabSectionTabs_tonari':
+        var koutsuuVocabSectionTabs_tonari = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_tonari.mp3');
+        koutsuuVocabSectionTabs_tonari.play();
+    break;
+    case 'koutsuuVocabSectionTabs_shingou':
+        var koutsuuVocabSectionTabs_shingou = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_shingou.mp3');
+        koutsuuVocabSectionTabs_shingou.play();
+    break;
+    case 'koutsuuVocabSectionTabs_massugu':
+        var koutsuuVocabSectionTabs_massugu = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_massugu.mp3');
+        koutsuuVocabSectionTabs_massugu.play();
+    break;
+    case 'koutsuuVocabSectionTabs_kousaten':
+        var koutsuuVocabSectionTabs_kousaten = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_kousaten.mp3');
+        koutsuuVocabSectionTabs_kousaten.play();
+    break;
+    case 'koutsuuVocabSectionTabs_tsukiatari':
+        var koutsuuVocabSectionTabs_tsukiatari = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_tsukiatari.mp3');
+        koutsuuVocabSectionTabs_tsukiatari.play();
+    break;
+    case 'koutsuuVocabSectionTabs_magarimasu':
+        var koutsuuVocabSectionTabs_magarimasu = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_magarimasu.mp3');
+        koutsuuVocabSectionTabs_magarimasu.play();
+    break;
+    case 'koutsuuVocabSectionTabs_ikimasu':
+        var koutsuuVocabSectionTabs_ikimasu = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_ikimasu.mp3');
+        koutsuuVocabSectionTabs_ikimasu.play();
+    break;
+    case 'koutsuuVocabSectionTabs_miemasu':
+        var koutsuuVocabSectionTabs_miemasu = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_miemasu.mp3');
+        koutsuuVocabSectionTabs_miemasu.play();
+    break;
+    case 'koutsuuVocabSectionTabs_zutto':
+        var koutsuuVocabSectionTabs_zutto = new Audio('https://icephy.github.io/project0522/audio/sound/koutsuu/vocab_section/koutsuuVocabSectionTabs_zutto.mp3');
+        koutsuuVocabSectionTabs_zutto.play();
+    break;
 
 
     // 其他聲音的處理
