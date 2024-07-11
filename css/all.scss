@@ -118,7 +118,19 @@ body{
   object-fit: cover;
 }
 
+.classTopicImg{
+  object-fit: cover;
+}
+
+
 .vvtest{
   flex-wrap: nowrap;
   overflow: auto;
+}
+
+.aboutTravelClass{
+  background-image: url(../img/noise_bg_001.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
