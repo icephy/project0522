@@ -54,6 +54,7 @@ $strong:  #3781dc !default;  // *custom
 $goose:  #f6ecbe !default;  // *custom 
 $serenity:  #c7ced7 !default;  // *custom
 $at:  #ff5f5f !default;  // *custom 
+$pure:  #e8e5ec !default;  // *custom 
 
 
 // scss-docs-end color-variables
@@ -82,6 +83,7 @@ $colors: (
   "goose":      $goose, // *custom goose
   "serenity":   $serenity, // *custom serenity
   "at":         $at, // *custom amazingtalker
+  "pure":         $pure, // *custom amazingtalker
 ) !default;
 // scss-docs-end colors-map
 
@@ -331,6 +333,7 @@ $palepink:      $palepink !default; // *custom
 $strong:        $strong !default; // *custom
 $serenity:      $serenity !default; // *custom
 $at:            $at !default; // *custom
+$pure:          $pure !default; // *custom 
 // scss-docs-end theme-color-variables
 // scss-docs-start theme-colors-map
 $theme-colors: (
@@ -350,6 +353,7 @@ $theme-colors: (
   "goose":      $goose, // *custom
   "serenity":   $serenity, // *custom
   "at":         $at, // *custom
+  "pure":       $pure, // *custom
 ) !default;
 // scss-docs-end theme-colors-map
 
