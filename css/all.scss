@@ -134,3 +134,16 @@ body{
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.font-size-84 {
+  font-size: 84px;
+}
+
+.material-symbols-outlined {
+  color: $secondary;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
