@@ -104,7 +104,7 @@
       </div>
       <!--引導說明-->
       
-      <section class="mt-5">
+      <section class="mt-5 d-lg-none">
         <div class="container mb-md-4 mb-2">
           <span class="badge letter-spacing-2 rounded fs-7 bg-primary text-white mb-2">旅行日語補給包</span>
           <h3 class="fs-2 mx-auto mb-md-2 fw-bolder letter-spacing-1">使用指南說明
@@ -156,12 +156,13 @@
         </div>
       </section>
       <!--使用流程-->
+      
       <!--課程詳細說明-->
       <section class="my-sm-5 my-4">
         <div class="container">
           <ul class="nav nav-pills p-3 bg-light rounded-top flex-nowrap overflow-auto" id="hotelVocabSectionTabs" role="tablist">
             <li class="nav-item text-nowrap" role="presentation">
-              <button class="nav-link active" id="hotelVocabSectionTabs_GroupOne" data-bs-toggle="pill" data-bs-target="#hotelVocabSectionTabs_001" type="button" role="tab" aria-controls="hotelVocabSectionTabs_001" aria-selected="true">課程資訊</button>
+              <button class="nav-link active" id="hotelVocabSectionTabs_GroupOne" data-bs-toggle="pill" data-bs-target="#hotelVocabSectionTabs_001" type="button" role="tab" aria-controls="hotelVocabSectionTabs_001" aria-selected="true">團課資訊</button>
             </li>
             <li class="nav-item text-nowrap" role="presentation">
               <button class="nav-link" id="hotelVocabSectionTabs_GroupTwo" data-bs-toggle="pill" data-bs-target="#hotelVocabSectionTabs_002" type="button" role="tab" aria-controls="hotelVocabSectionTabs_002" aria-selected="false">學生評價</button>
@@ -176,14 +177,14 @@
           <!-- tabs 導覽按鈕-->
           <div class="tab-content bg-light pb-3 rounded-bottom" id="hotelVocabSectionTabs_tabContent">
             <div class="tab-pane fade show active container" id="hotelVocabSectionTabs_001" role="tabpanel" aria-labelledby="hotelVocabSectionTabs_GroupOne">
-              <div class="row bg-primary px-1 gx-3">
+              <div class="row px-1 gx-3">
                 <div class="col-md-8">
-                  <div class="bg-goose border border-1 rounded p-3">
+                  <div class="bg-white rounded p-3">
                     <h4 class="fs-5">四天三夜・旅行班</h4>
-                    <p class="my-3 text-muted">在這門課程中，每位同學將在課前收到角色任務卡，上面包含了同學在課程中需要完成的任務。任務內容涵蓋了課程的核心知識與技能，在這八堂旅途上一同學習４大旅遊主題：「住宿、飲食、購物、交通」，讓你沈浸式學習，不再是課本句子練習！</p>
-                    <h4 class="fs-5">上課時程</h4>
+                    <p class="my-3 text-muted">在這門課程中，每位同學將在課前收到角色任務卡，裡面包含了同學在課程中需要完成的任務。任務內容涵蓋了課程的核心知識與技能，在這八堂旅途上一同學習４大旅遊主題：「住宿、飲食、購物、交通」，讓你沈浸式學習，不再是課本句子練習！</p>
+                    <h4 class="fs-5">團課資訊</h4>
                     <div class="container my-3 px-0">
-                      <!--刻意消除 px-0 -->
+                      <!--刻意消除課程內容、團課資訊 container 的 px-0 -->
                       <div class="row g-2">
                         <div class="col-md-6">
                           <div class="d-flex align-items-center mb-0 rounded border border-1 p-2 bg-white">
@@ -265,27 +266,105 @@
                         </div>
                       </div><!--row-->
                     </div><!--container-->
-                    <h4 class="fs-5">４大學習主題</h4>
-                  </div>
+                    <h4 class="fs-5">課程內容</h4>
+                    <div class="container mt-3 px-0">
+                      <div class="row g-3">
+                        <div class="col-lg-6">
+                          <div class="card p-3 shadow-sm h-100">
+                              <div class="position-relative mb-2">
+                                <p class="position-absolute top-0 px-md-3 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1 rounded-topLeft-bottomRight">住宿</p>
+                                <img src="img/class_topic_cover_001.png" class="classTopicImg img-fluid rounded bg-moore" alt="class-topic-img">
+                              </div>
+                                <div class="card-body d-flex flex-column p-0">
+                                  <div class="d-flex align-items-center justify-content-between">
+                                    <h5 class="card-title">飯店日語</h5>
+                                  </div>
+                                  <p class="mb-2 text-muted">學習飯店入住時的流程，包括登記手續、詢問飯店設施等，讓同學學習如何向飯店人員提出相關問題。</p>
+                                  <ul class="card-text list-unstyled mb-0 d-flex flex-column gap-2 w-100">
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➊、辦理入住、退房手續</li>
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➋、與櫃檯人員溝通房間需求</li>
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➌、飯店溫泉泡湯禮儀</li>
+                                  </ul>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="card p-3 shadow-sm h-100">
+                              <div class="position-relative mb-2">
+                                <p class="position-absolute top-0 px-md-3 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1 rounded-topLeft-bottomRight">居酒屋</p>
+                                <img src="img/class_topic_cover_002.png" class="classTopicImg img-fluid rounded bg-moore" alt="class-topic-img">
+                              </div>
+                                <div class="card-body d-flex flex-column p-0">
+                                  <div class="d-flex align-items-center justify-content-between">
+                                    <h5 class="card-title">日本飲食文化</h5>
+                                  </div>
+                                  <p class="mb-2 text-muted">課堂中模擬真實情境，老師將以餐廳菜單為主題，讓大家學習如何點餐，以及份量、口味等詢問用語。</p>
+                                  <ul class="card-text list-unstyled mb-0 d-flex flex-column gap-2 w-100">
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➊、利用居酒屋菜單學習點餐</li>
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➋、點餐時份量與口味詢問</li>
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➌、餐點加配料，認識飲食文化</li>
+                                  </ul>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="card p-3 shadow-sm h-100">
+                              <div class="position-relative mb-2">
+                                <p class="position-absolute top-0 px-md-3 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1 rounded-topLeft-bottomRight">購物消費</p>
+                                <img src="img/class_topic_cover_003.png" class="classTopicImg img-fluid rounded bg-moore" alt="class-topic-img">
+                              </div>
+                                <div class="card-body h-100 d-flex flex-column p-0">
+                                  <div class="d-flex align-items-center justify-content-between">
+                                    <h5 class="card-title">購物與結帳</h5>
+                                  </div>
+                                  <p class="mb-2 text-muted">我們將練習購物時常見的情境，提供實用的語句和技巧，讓同學能在購物時，流暢地與店員溝通。</p>
+                                  <ul class="card-text list-unstyled mb-0 d-flex flex-column gap-2 w-100">
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➊、服飾顏色、尺寸、款式</li>
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➋、試穿以及穿脫等用語</li>
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➌、服飾修改及形容詞用語</li>
+                                  </ul>
+                                </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="card p-3 shadow-sm h-100">
+                              <div class="position-relative mb-2">
+                                <p class="position-absolute top-0 px-md-3 py-md-2 bg-dark fs-6 fw-bold text-white px-3 py-1 rounded-topLeft-bottomRight">交通問路</p>
+                                <img src="img/class_topic_cover_004.png" class="classTopicImg img-fluid rounded bg-moore" alt="class-topic-img">
+                              </div>
+                                <div class="card-body d-flex flex-column p-0">
+                                  <div class="d-flex align-items-center justify-content-between">
+                                    <h5 class="card-title">問路與大眾運輸場所</h5>
+                                  </div>
+                                  <p class="mb-2 text-muted">迷路時該如何向他人尋求幫助，同學們將學習禮貌的問路方式，以及如何清楚表達自己的目的地和需求。</p>
+                                  <ul class="card-text list-unstyled mb-0 d-flex flex-column gap-2 w-100">
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➊、認識交通運輸場所</li>
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➋、地點詢問、路線與交通方式</li>
+                                      <li class="px-2 py-1 bg-white rounded text-primary border border-1">➌、街頭問路與搭訕禮儀</li>
+                                  </ul>
+                                </div>
+                          </div>
+                        </div>
+                      </div><!--row-->  
+                    </div><!--課程內容-->
+                  </div><!--內容-->
                 </div>
-                <div class="col-4">
-                  <div class="card h-100 shadow-sm">
-                    <button class="btn btn-dark text-center position-absolute top-0 end-0 rounded-circle p-0 p-1 m-2" onmousedown="PlaySound('hotelVocabSectionTabs_erebeetaa')"><img src="img/icon-volume.svg" alt="volume" class="img-fluid d-block">
-                    </button>
-                    <div class="card-body d-flex flex-column text-center px-2 py-5">
-                      <h5 class="card-title mb-1">
-                        <ruby><span class="fw-bolder">エレベーター</span>
-                          <rp>(</rp>
-                          <rt class="text-strong">えれべーたー</rt>
-                          <rp>)</rp>
-                        </ruby>
-                      </h5>
-                      <p class="card-text text-muted">電梯</p>
-                    </div>
-                    <!--card-body-->
+                <div class="col-md-4">
+                  <div class="bg-white rounded p-3 d-flex flex-column">
+                      <h4 class="fs-5">團課價格</h4>
+                      <p class="mb-1">
+                        <p class="d-flex mb-0 align-items-center gap-2">
+                          <span class="material-symbols-outlined icon-danger d-block">
+                            paid
+                          </span>
+                          <span class="fs-4 text-danger fw-bolder d-block">優惠 NT$2,200</span>
+                        </p>
+                        <span class="text-muted text-decoration-line-through d-block mb-2">原價 NT$3,200</span>
+                        <p class="rounded fs-7 bg-moore text-primary mb-0 py-2 px-3 fw-bolder">開學季・報名立即現省千元</p>
+                      </p>
+                      <a href="https://tw.amazingtalker.com/teachers-and-tutors/7255146a-f7a9-4d09-b329-0f5baf664b18" class="btn btn-primary fw-bolder d-block" role="button" target="_blank">立即報名上課去</a>
                   </div>
-                  <!--card-->
-                </div>
+                </div><!--col 課程價格-->
               </div><!--row-->
             </div>
             <!--tab-pane-001 課程資訊-->
@@ -564,7 +643,7 @@
         </div><!--container-->
       </section>
     
-      <section class="my-sm-5 my-4">
+      <section class="my-sm-5 my-4 d-lg-none">
         <div class="container mb-md-4 mb-2">
           <span class="badge letter-spacing-2 rounded fs-7 bg-moore text-primary mb-2">給想提升旅遊語言能力的你</span>
           <h3 class="fs-2 mx-auto mb-md-2 fw-bolder letter-spacing-1">四天三夜・旅行班</h3>
@@ -693,7 +772,7 @@
           </div><!--row-->  
         </div>
       </section>
-      <!--關於旅行班-->
+      <!--關於旅行班，暫時關閉-->
 
       <footer class="bg-dark py-4">
         <div class="container mx-auto d-flex justify-content-between align-items-center flex-lg-row flex-column gap-2">

@@ -12856,4 +12856,8 @@ body {
 .material-symbols-outlined {
   color: #E0E4E1;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.icon-danger {
+  color: #dc3545;
 }/*# sourceMappingURL=all.css.map */
