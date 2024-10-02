@@ -72,10 +72,6 @@ body{
 //     background-color: #415948;
 // }
 
-.fs-7{
-    font-size: 14px;
-}
-
 .nav::-webkit-scrollbar{
     display: none;
 }
@@ -85,6 +81,7 @@ body{
     -ms-overflow-style: none; /* IE 10+ */
 }
 
+// 打字動態效果
 .typing{
     animation: type 2.5s steps(16), blink .5s infinite alternate;
     overflow: hidden;
@@ -112,6 +109,7 @@ body{
     }
   }
 
+// 聽力圖片設定
 .shortTalksImg{
   width: 200px;
   height: 200px;
@@ -122,12 +120,12 @@ body{
   object-fit: cover;
 }
 
+// .vvtest{
+//   flex-wrap: nowrap;
+//   overflow: auto;
+// }
 
-.vvtest{
-  flex-wrap: nowrap;
-  overflow: auto;
-}
-
+// 特殊背景圖片設定
 .aboutTravelClass{
   background-image: url(../img/noise_bg_001.png);
   background-size: cover;
@@ -135,6 +133,8 @@ body{
   background-repeat: no-repeat;
 }
 
+
+// icon 樣式設定
 .font-size-84 {
   font-size: 84px;
 }
@@ -150,4 +150,24 @@ body{
 
 .icon-danger{
   color: $danger;
+}
+
+.icon-primary{
+  color: $primary;
+}
+
+
+// Tab 滑動固定
+#travelClassInfoSectionTabs{
+  position: sticky;
+  top: 92px; /* 距離頁面頂部的距離，避免擋住 menu */
+  z-index: 1000; /* 確保固定後 tab 在最上層 */
+  background-color: white; /* 滾動後依然保持背景色 */
+}
+
+#travelClassPrice{
+  position: sticky;
+  top: 106px; /* 距離頁面頂部的距離，避免擋住 menu */
+  z-index: 1000; /* 確保固定後 tab 在最上層 */
+  background-color: white; /* 滾動後依然保持背景色 */
 }

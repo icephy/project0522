@@ -681,6 +681,12 @@ progress {
   }
 }
 
+.display-7 {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -8986,6 +8992,10 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.875rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -12789,10 +12799,6 @@ body {
   background-size: 3rem 3rem;
 }
 
-.fs-7 {
-  font-size: 14px;
-}
-
 .nav::-webkit-scrollbar {
   display: none;
 }
@@ -12837,11 +12843,6 @@ body {
   object-fit: cover;
 }
 
-.vvtest {
-  flex-wrap: nowrap;
-  overflow: auto;
-}
-
 .aboutTravelClass {
   background-image: url(../img/noise_bg_001.png);
   background-size: cover;
@@ -12860,4 +12861,22 @@ body {
 
 .icon-danger {
   color: #dc3545;
+}
+
+.icon-primary {
+  color: #647969;
+}
+
+#travelClassInfoSectionTabs {
+  position: sticky;
+  top: 92px; /* 距離頁面頂部的距離，避免擋住 menu */
+  z-index: 1000; /* 確保固定後 tab 在最上層 */
+  background-color: white; /* 滾動後依然保持背景色 */
+}
+
+#travelClassPrice {
+  position: sticky;
+  top: 106px; /* 距離頁面頂部的距離，避免擋住 menu */
+  z-index: 1000; /* 確保固定後 tab 在最上層 */
+  background-color: white; /* 滾動後依然保持背景色 */
 }/*# sourceMappingURL=all.css.map */
