@@ -12809,12 +12809,21 @@ body {
 }
 
 .typing {
-  animation: type 2.5s steps(16), blink 0.5s infinite alternate;
+  animation: type 2.5s steps(18), blink 0.5s infinite alternate;
   overflow: hidden;
   white-space: nowrap;
   font-size: 4em;
   border-right: 5px solid black;
   width: 21ch;
+}
+
+.typing-m {
+  animation: type 2.5s steps(18), blink 0.5s infinite alternate;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 4em;
+  border-right: 5px solid black;
+  width: 23ch;
 }
 
 @keyframes type {
